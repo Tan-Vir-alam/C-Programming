@@ -8,15 +8,15 @@ OUTPUT SAMPLE: X = 3
                X-- = 5
                --X = 3 */
 int main(){
- int num,a;
+ int num;
  printf("Enter a number:");
  scanf("%d",&num);
- a = num+2;
+
  printf("X = %d\n",num);
- printf("X++ = %d\n",num);
- printf("++X = %d\n",a);
- printf("X-- = %d\n",a);
- printf("--X = %d\n",num);
+ printf("X++ = %d\n",num++);
+ printf("++X = %d\n",++num);
+ printf("X-- = %d\n"num--);
+ printf("--X = %d\n",--num);
 
  getch();
 
