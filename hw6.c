@@ -51,14 +51,8 @@ int main(){
         break;
     case 8:
         printf("Invalid Input.");
-
-
     default:
         printf("Please enter number flowing the rules.");
-
-
     }
-
-
 return 0;
 }
