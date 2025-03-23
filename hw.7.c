@@ -7,6 +7,7 @@ OUTPUT SAMPLE: X = 3
                ++X = 5
                X-- = 5
                --X = 3 */
+#include <stdio.h>
 int main(){
  int num;
  printf("Enter a number:");
@@ -27,7 +28,7 @@ int main(){
 those roads which road numbers are divisible by 3 or 5.
 INPUT FFORMAT: Find if the number is divisible by 3,5 or not.
 OUTPUT FORMAT: If the number isn't divisible by any of them print"Wrong Road." Without quotation.*/
-
+#include<stdio.h>
 int main(){
  int num;
  printf("Enter a number:");
@@ -53,6 +54,7 @@ Obese:- BMI >= 30
 INPUT FORMAT: Take weight & height as kg & m.
 OUTPUT FORMAT: Tell her in which condition she is in.*/
 
+#include<stdio.h>
 int main(){
 float weight,height,BMI;
 printf("Enter your weight:");
