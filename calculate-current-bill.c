@@ -11,10 +11,7 @@ OUTPUT FORMAT: Calculate the current bill.
 - 401 to 600 unit = 12.67 Taka.(kwh)
 - up to 600 unit = 14.61 Taka.(kwh)
 Demand charge = 42.00 Taka.
-
-]
-
-*/
+]*/
 
 #include<stdio.h>
 int main(){
@@ -27,41 +24,35 @@ int main(){
     if (total_unit >= 0 && total_unit <= 75){
         bill = (total_unit * 5.26) + (load * demand_charge);
         bill += bill*0.05;
-
         printf("Total Bill: %.2f Taka",bill);
     }
     else if (total_unit > 75 && total_unit <= 200){
         bill=(total_unit * 7.20)+(load * demand_charge);
         bill +=  bill*0.05;
-
         printf("Total Bill: %.2f Taka",bill);
     }
 
      else if (total_unit > 200 && total_unit <= 300){
         bill=(total_unit * 7.59)+(load * demand_charge);
         bill +=  bill*0.05;
-
         printf("Total Bill: %.2f Taka",bill);
     }
 
      else if (total_unit > 300 && total_unit <= 400){
         bill=(total_unit * 8.02)+(load * demand_charge);
         bill +=  bill*0.05;
-
         printf("Total Bill: %.2f Taka",bill);
         }
 
      else if (total_unit > 400 && total_unit <= 600){
         bill=(total_unit * 12.67)+(load * demand_charge);
         bill +=  bill*0.05;
-
         printf("Total Bill: %.2f Taka",bill);
     }
 
      else if (total_unit > 600){
         bill=(total_unit * 14.61)+(load * demand_charge);
         bill +=  bill*0.05;
-
         printf("Total Bill: %.2f Taka",bill);
     }
 
