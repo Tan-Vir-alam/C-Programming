@@ -10,9 +10,9 @@ OUTPUT FORMAT: Tell her in which condition she is in.*/
 #include<stdio.h>
 int main(){
 float weight,height,BMI;
-printf("Enter your weight:");
+printf("Enter your weight(Kg):");
 scanf("%f",&weight);
-printf("Enter your height:");
+printf("Enter your height(m):");
 scanf("%f",&height);
 BMI = weight/(height*height);
   
