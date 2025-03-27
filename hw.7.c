@@ -42,8 +42,6 @@ int main(){
 
  getch();
 }
-
-
 /*Problem: Lily is so tensed about her weight gain. She's going for a diet, that's why she has to calculate
 her BMI every week. Help her in BMI determination.
 Underweight:- BMI < 18.5
@@ -78,5 +76,3 @@ BMI = weight/(height*height);
 getch();
 
 }
-
-
