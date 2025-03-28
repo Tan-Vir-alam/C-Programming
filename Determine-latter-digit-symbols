@@ -1,0 +1,26 @@
+/*A simple task is given you, just have to determine the capital latter, small letter, digit and special symbols.
+*/
+
+#include<stdio.h>
+int main(){
+ char ch;
+ printf("Enter your input:");
+ scanf("%c",&ch);
+ int a = ch;
+
+ if (a >= 65 && a <= 90){
+    printf("This is a Capital latter alphabet.");
+ }
+ else if (a >= 97 && a <= 122){
+    printf("This is a small latter alphabet.");
+ }
+ else if (a >= 48 && a <= 57){
+    printf("This is a digit.");
+ }
+ else{
+    printf("This is a symbol");
+ }
+
+
+return 0;
+}
