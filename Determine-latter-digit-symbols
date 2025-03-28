@@ -7,7 +7,6 @@ int main(){
  printf("Enter your input:");
  scanf("%c",&ch);
  int a = ch;
-
  if (a >= 65 && a <= 90){
     printf("This is a Capital latter alphabet.");
  }
@@ -20,7 +19,5 @@ int main(){
  else{
     printf("This is a symbol");
  }
-
-
 return 0;
 }
