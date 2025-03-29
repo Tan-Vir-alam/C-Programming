@@ -1,0 +1,36 @@
+/*Eid has come so as a muslim we should must give zakat if we have that suitable amount
+of wealth. SO there are some conditions for giving zakat. A person only can give zakat
+if he/she has equal or more then 95000 taka as cash. SO the formula is:
+    [Total zakat = 2.5% of zakatable amount
+     jakatable amount = (total cash - total debt)]
+
+INPUT FORMAT: Take the values sincerely.
+OUTPUT FORMAT: Follow the given input output sample.
+*/
+
+#include<stdio.h>
+int main(){
+ float cash,savings,lent,loan,utility_bill,total_cash,total_debt,total_jakat,jakatable_amount;
+ printf("Cash in hand: ");
+ scanf("%f",&cash);
+ printf("Savings: ");
+ scanf("%f",&savings);
+ printf("Cash lent to friend: ");
+ scanf("%f",&lent);
+ printf("Loan: ");
+ scanf("%f",&loan);
+ printf("Utility bills: ");
+ scanf("%f",&utility_bill);
+
+ total_cash = cash + savings + lent;
+ total_debt = loan + utility_bill;
+ jakatable_amount = (total_cash - total_debt);
+   if (jakatable_amount >= 95000){
+ total_jakat = jakatable_amount * 0.025;
+ printf("Total Zakat: %2.f Taka",total_jakat);
+  }
+  else{
+    printf("You do not have enough money to pay Zakat. you do not have to pay Zakat.");
+  }
+ return 0;
+}
