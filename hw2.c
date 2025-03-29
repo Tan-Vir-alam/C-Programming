@@ -1,6 +1,3 @@
-/*Name: Tanvir Alam;
-
-problem No: 01;*/
 #include <stdio.h>
 int main() {
     float x;
@@ -52,6 +49,5 @@ int main(){
   scanf("%d",&Prova);
   printf("Nirob Bhaiya has %dTK Note now.",Prova);
   printf("Prova Apu has %dTK Note now.\n",saud_sir);
-
 return 0;
 }
