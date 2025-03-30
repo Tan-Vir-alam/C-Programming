@@ -1,7 +1,3 @@
-//Name: Tanvir Alam
-//Roll: 30;
-//Sec:B
-
 #include <stdio.h>
 
 int main(){
