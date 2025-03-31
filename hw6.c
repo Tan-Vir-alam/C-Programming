@@ -1,5 +1,4 @@
-//Problem No:05.
-
+//Problem No:01.
 #include <stdio.h>
 int main(){
     int a,b;
