@@ -11,3 +11,15 @@ int main(){
     printf("X = %d\n",X);
 return 0;
 }
+
+/*The formula to calculate the area of a circumference is define as A = n . R^2.
+Considering to this problem that n=3.14159:
+*/
+#include<stdio.h>
+int main(){
+    double A,pi=3.14159,R;
+    scanf("%lf",&R);
+    A = pi*pow(R, 2);
+    printf("A=%.4lf\n",A);
+return 0;
+}
