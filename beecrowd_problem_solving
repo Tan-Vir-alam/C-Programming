@@ -36,3 +36,7 @@ int main(){
     printf("SOMA = %d\n",SOMA);
 return 0;
 }
+
+/*Read tow integer values. After this, calculate the product between them and store the result in a variable named PROD.
+Print the result like 'PROD = 27'. Do not forget to print the end of the line after the result, otherwise you will receive "Presentation Error".
+*/
