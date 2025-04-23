@@ -40,3 +40,12 @@ return 0;
 /*Read tow integer values. After this, calculate the product between them and store the result in a variable named PROD.
 Print the result like 'PROD = 27'. Do not forget to print the end of the line after the result, otherwise you will receive "Presentation Error".
 */
+#include<stdio.h>
+int main(){
+    int x,y,PROD;
+    scanf("%d",&x);
+    scanf("%d",&y);
+    PROD = (x*y);
+    printf("PROD = %d\n",PROD);
+return 0;
+}
