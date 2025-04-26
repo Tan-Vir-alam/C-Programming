@@ -85,3 +85,12 @@ return 0;
 radius (R). The formula to calculate the volume is: (4/3)*pi*R^3. Consider(assign) for pi the value
 is 3.14159.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    float R,pi=3.14159,VOL;
+    scanf("%f",&R);
+    VOL = (4.0/3.0)*pi*pow(R, 3);
+    printf("VOLUME = %.3f\n",VOL);
+return 0;
+}
