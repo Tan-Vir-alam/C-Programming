@@ -80,3 +80,8 @@ int main(){
     printf("MEDIA = %.5f\n",MEDIA);
 return 0;
 }
+
+/*Make a program that calculate and shows the volume of a sphere being provided the value of it's
+radius (R). The formula to calculate the volume is: (4/3)*pi*R^3. Consider(assign) for pi the value
+is 3.14159.
+*/
