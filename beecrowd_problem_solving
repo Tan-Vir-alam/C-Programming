@@ -71,3 +71,12 @@ After this, calculate the student's average, considering that grade A has weight
 Each grade can be from zero to ten, always with one digit after the decimal point. Don't forget to print the
 end of line after the result, otherwise you will receive "Presentation Error".
 */
+#include<stdio.h>
+int main(){
+    float A,B,MEDIA;
+    scanf("%f",&A);
+    scanf("%f",&B);
+    MEDIA = (A*3.5+B*7.5)/11.0;
+    printf("MEDIA = %.5f\n",MEDIA);
+return 0;
+}
