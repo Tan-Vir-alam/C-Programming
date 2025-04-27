@@ -151,3 +151,14 @@ product 1, the price for one unit of product 1, the code of a product 2, the num
 of units of product 2 and the price for one unit of product 2. After this, calculate
 and show the amount to be paid.
 */
+#include<stdio.h>
+int main(){
+    int code1,code2,num1,num2;
+    float price1,price2,total;
+    scanf("%d%d%f", &code1, &num1, &price1);
+    scanf("%d%d%f", &code2, &num2, &price2);
+    total = (num1*price1)+(num2*price2);
+    printf("VALOR A PAGAR: R$ %.2f\n",total);
+return 0;
+}
+
