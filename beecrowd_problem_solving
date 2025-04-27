@@ -116,3 +116,15 @@ number in a month and the amount he received per hour. Print the employee's
 number and salary that he/she will receive at end of the month, with tow
 decimal places.
 */
+#include<stdio.h>
+int main(){
+    int NUMBER,HOURS;
+    float AMOUNT,SALARY;
+    scanf("%d",&NUMBER);
+    scanf("%d",&HOURS);
+    scanf("%f",&AMOUNT);
+    SALARY = (HOURS*AMOUNT);
+    printf("NUMBER = %d\n",NUMBER);
+    printf("SALARY = U$ %.2f\n",SALARY);
+return 0;
+}
