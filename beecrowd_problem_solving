@@ -162,3 +162,11 @@ int main(){
 return 0;
 }
 
+/*Make a program that reads three floating point values: A, B and C. Then,
+calculate and show:
+a) The area of the rectangled triangle that has base A and height C.
+b) The area of the radius's circle C.(pi = 3.14159)
+c) The area of the trapezium which has A and B by base, and C by height.
+d) The area of the square that has side B.
+e) The area of the rectangle that has sides A and B.
+*/
