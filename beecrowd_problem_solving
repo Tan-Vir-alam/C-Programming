@@ -192,10 +192,10 @@ spent fuel total, with a digit after the decimal point.
 #include<stdio.h>
 int main(){
     int X;
-    float Y,KM;
+    float Y;
     scanf("%d",&X);
     scanf("%f",&Y);
-    KM = X/Y;
-    printf("%.3f km/1\n",KM);
+    double KM = X/Y;
+    printf("%.3lf km/l\n",KM);
 return 0;
 }
