@@ -57,3 +57,17 @@ Total amount of Eibrahim
 Total amount of Aashik
 Finally, just print these final amounts.
 */
+#include<stdio.h>
+int main(){
+    int R,E,A;
+    scanf("%d",&R);
+    scanf("%d",&E);
+    scanf("%d",&A);
+    float Rifat_total = (R*0.15)+R;
+    float Eibrahim_total = (E*0.15)+E;
+    float Aashik_total = (A*0.20)+A;
+    printf("Rifat's Final Amount = %.3f tk\n",Rifat_total);
+    printf("Eibrahim's Final Amount = %.3f tk\n",Eibrahim_total);
+    printf("Aashik's Final Amount = %.3f tk\n",Aashik_total);
+return 0;
+}
