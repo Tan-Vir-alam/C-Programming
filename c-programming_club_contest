@@ -44,3 +44,16 @@ int main(){
     printf("%d1\n",A+B);
 return 0;
 }
+
+/*Rifat, Eibrahim, and Aashik have deposits in a bank.
+Rifat and Eibrahim receive 15% simple interest on their deposits.
+Aashik receives 20% simple interest on his deposit.
+You are given their deposits.
+After adding the interest, calculate the total amount of each friend.
+
+Then, calculate:
+Total amount of Rifat
+Total amount of Eibrahim
+Total amount of Aashik
+Finally, just print these final amounts.
+*/
