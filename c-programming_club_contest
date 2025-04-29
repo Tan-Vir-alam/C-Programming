@@ -71,3 +71,16 @@ int main(){
     printf("Aashik's Final Amount = %.3f tk\n",Aashik_total);
 return 0;
 }
+
+/*In the world of hunters, Sung Rykar has taken on a massive challenge: clearing multiple dungeons in a single day!
+Without using teleportation magic, Rykar has to walk from one dungeon to the next — step by step.
+Today, Rykar plans to conquer three dungeons.
+The times he needs to walk between them are:
+T1​ minutes to reach the first dungeon,
+T2 minutes to reach the second dungeon,
+T3 minutes to reach the third dungeon.
+You must help Rykar calculate the total time, how many hours and minutes he spends walking today!
+
+Input: Three integers T1, T2, T3 — the times (in minutes) Rykar takes to walk to each dungeon, where:
+0 ≤ T1,T2,T3 ≤ 10^10
+*/
