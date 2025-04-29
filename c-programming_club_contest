@@ -1,1 +1,20 @@
-
+//Contest No: 02.
+/*Write a program that can provide the right multiplication table from 1 to 10 according to the given Integer.
+Input: The first line of the input contains a single integer t (1≤t≤10^9)
+*/
+#include<stdio.h>
+int main(){
+    long int t;
+    scanf("%ld",&t);
+    printf("%ld * 1 = %ld\n",t,t*1);
+    printf("%ld * 2 = %ld\n",t,t*2);
+    printf("%ld * 3 = %ld\n",t,t*3);
+    printf("%ld * 4 = %ld\n",t,t*4);
+    printf("%ld * 5 = %ld\n",t,t*5);
+    printf("%ld * 6 = %ld\n",t,t*6);
+    printf("%ld * 7 = %ld\n",t,t*7);
+    printf("%ld * 8 = %ld\n",t,t*8);
+    printf("%ld * 9 = %ld\n",t,t*9);
+    printf("%ld * 10 = %ld\n",t,t*10);
+return 0;
+}
