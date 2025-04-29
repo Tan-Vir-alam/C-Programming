@@ -18,3 +18,17 @@ int main(){
     printf("%ld * 10 = %ld\n",t,t*10);
 return 0;
 }
+
+/*Nihad went to a sweet shop because he always craves to eat sweets. This is not good for his health as he has diabetes,
+but he doesn't care. A laddu costs Rs. 10 while a jalebi costs Rs. 20.
+Initially, Nihad had Rs. X, but then Nihad bought N laddus, how many jalebis can he buy with the remaining money?
+*/
+#include<stdio.h>
+int main(){
+    int X,N,Y;
+    scanf("%d%d",&X,&N);
+    int x = N*10;
+    Y = (X-x)/20;
+    printf("%d\n",Y);
+return 0;
+}
