@@ -94,3 +94,17 @@ int main(){
     printf("%d Hour %d Minute\n",X,Y);
 return 0;
 }
+
+/*You are given n. Find the value of x.
+x=n^2
+Input: The only line of input contains —n (1<=N<=10^19).
+Output: Print one line containing the value of x
+*/
+#include<stdio.h>
+int main(){
+   long long int n,x;
+    scanf("%lld",&n);
+    x = n*n;
+    printf("%lld\n",x);
+return 0;
+}
