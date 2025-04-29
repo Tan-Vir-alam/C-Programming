@@ -84,3 +84,13 @@ You must help Rykar calculate the total time, how many hours and minutes he spen
 Input: Three integers T1, T2, T3 — the times (in minutes) Rykar takes to walk to each dungeon, where:
 0 ≤ T1,T2,T3 ≤ 10^10
 */
+#include<stdio.h>
+int main(){
+    long int T1,T2,T3;
+  scanf("%ld%ld%ld",&T1,&T2,&T3);
+    long int x=T1+T2+T3;
+    int X=x/60;
+    int Y= x%60;
+    printf("%d Hour %d Minute\n",X,Y);
+return 0;
+}
