@@ -1,3 +1,11 @@
+Contest No: 01.
+/*Arif is a first-year Computer Science student at Tejgaon College. He's just joined the Programming Club
+Workshop and is super excited to write his very first C program. While cleaning up his grandfather's old 
+study desk, he finds an old diary. Inside, there's a special date written with the note:
+"The day I made my first invention — never forget this day!"
+Output: Date: 24/04/2O25
+Day: Thursday*/
+
 //Contest No: 02.
 /*Write a program that can provide the right multiplication table from 1 to 10 according to the given Integer.
 Input: The first line of the input contains a single integer t (1≤t≤10^9)
