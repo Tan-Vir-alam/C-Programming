@@ -5,6 +5,14 @@ study desk, he finds an old diary. Inside, there's a special date written with t
 "The day I made my first invention — never forget this day!"
 Output: Date: 24/04/2O25
 Day: Thursday*/
+#include<stdio.h>
+int main(){
+    printf("Date: 24\\04\\2O25\n\n");
+    printf("Day: Thursday\n");
+return 0;
+}
+
+
 
 //Contest No: 02.
 /*Write a program that can provide the right multiplication table from 1 to 10 according to the given Integer.
