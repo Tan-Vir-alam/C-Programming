@@ -115,3 +115,17 @@ each city. Each wall must cover a perfect  rectangle: the length and width neede
 the Royal Messenger. For magical reinforcement, each square meter of wall requires exactly 3 gold coins.
 After building all three walls: The Royal Treasurer will ask you for the total cost of all walls combined.
 */
+#include<stdio.h>
+int main(){
+    long int Vl,Vw,Nl,Nw,El,Ew,V,N,E;
+    scanf("%ld%ld%ld%ld%ld%ld",&Vl,&Vw,&Nl,&Nw,&El,&Ew);
+    V = Vl*Vw*3;
+    N = Nl*Nw*3;
+    E = El*Ew*3;
+    long int Total = V+N+E;
+    printf("Valoria: %ld\n",V);
+    printf("Nemoris: %ld\n",N);
+    printf("Eryndor: %ld\n",E);
+    printf("Grand Total: %ld\n",Total);
+return 0;
+}
