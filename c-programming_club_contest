@@ -14,6 +14,11 @@ return 0;
 
 /*print Sheikh Hasina wrote, " I have resigned!".
 */
+#include<stdio.h>
+int main(){
+    printf("Sheikh Hasina wrote, \" I have resigned!\".\n");
+return 0;
+}
 
 
 //Contest No: 02.
