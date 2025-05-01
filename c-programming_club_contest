@@ -173,3 +173,11 @@ Output: Print exactly:
 Where x is the last two digits of n. If there is a zero in the 2nd last number,
 print only one digit The output must end with a endline.
 */
+#include<stdio.h>
+int main(){
+    long long int n,x;
+    scanf("%lld",&n);
+    x = n%100;
+    printf("\"The last digit is %lld\"\n",x);
+return 0;
+}
