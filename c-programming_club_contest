@@ -163,3 +163,13 @@ int main(){
     printf("Grand Total: %ld\n",Total);
 return 0;
 }
+
+/*you need is the last two digits. Nothing more, nothing less."
+Your task is to help Link find the last two digits of the given
+number and display it in the exact format Zelda requested — with quotation marks!
+Input: A single integer n (10 ≤ n ≤ 10^18)
+Output: Print exactly:
+"The last digit is x"
+Where x is the last two digits of n. If there is a zero in the 2nd last number,
+print only one digit The output must end with a endline.
+*/
