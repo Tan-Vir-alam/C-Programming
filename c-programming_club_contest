@@ -108,3 +108,10 @@ int main(){
     printf("%lld\n",x);
 return 0;
 }
+
+/*The kingdom of Eldoria faces dark days. Three great cities- Valoria, Nemoris, and Eryndor- must be protected
+before the beasts of the abyss arrive. The king has ordered you, the royal Engineer, to build protective walls around
+each city. Each wall must cover a perfect  rectangle: the length and width needed for each city are given to you by
+the Royal Messenger. For magical reinforcement, each square meter of wall requires exactly 3 gold coins.
+After building all three walls: The Royal Treasurer will ask you for the total cost of all walls combined.
+*/
