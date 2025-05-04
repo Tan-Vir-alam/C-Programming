@@ -282,3 +282,11 @@ and the same average speed (km/h). In this way, you can get distance and then,
 calculate how many liters would be needed. Show the value with three decimal 
 places after the point.
 */
+#include<stdio.h>
+int main(){
+    double x,y;
+    scanf("%lf%lf",&x,&y);
+    double a = (x*y)/12;
+    printf("%.3lf\n",a);
+return 0;
+}
