@@ -260,3 +260,7 @@ int main(){
     printf("%d nota(s) de R$ 1,00\n",g);
 return 0;
 }
+
+/*Read an integer value, which is the duration in seconds of a certain event in a
+factory, and inform it expressed in hours:minutes:seconds.
+*/
