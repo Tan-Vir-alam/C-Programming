@@ -205,3 +205,13 @@ Your task is to find out:
 1. How many candies each kid gets.
 2. How many candies are left with Alice.
 */
+#include<stdio.h>
+int main(){
+    long int x,y;
+    scanf("%ld%ld",&x,&y);
+    long int a = x/y;
+    long int b = x%y;
+    printf("%ld candy per kid\n",a);
+    printf("%ld left with Alice\n",b);
+return 0;
+}
