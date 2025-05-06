@@ -261,3 +261,17 @@ int main(){
     printf("%d\n",b);
 return 0;
 }
+
+/*In the heart of London, under the foggy evening sky, a special contest was arranged by Scotland Yard.
+Detectives from around the world gathered, but only one man truly mattered — Sherlock Holmes.
+Inspector Lestrade, eager to truly test Sherlock’s unparalleled skills, presented him with a series of intricate cases — puzzles involving missing jewels, coded messages, and locked-room mysteries.
+Each problem was crafted to challenge even the sharpest mind.
+
+However, not even Sherlock is beyond human limits.
+Despite his brilliance, there were a few rare cases he decided not to pursue, deeming them either too trivial or a waste of his time.
+
+You are provided with:
+N — the total number of cases presented to Sherlock,
+P — the number of cases he chose not to solve.
+Your mission is to calculate the percentage of cases Sherlock successfully solved, and thus, judge his performance in this grand contest of intellect.
+*/
