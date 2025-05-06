@@ -199,3 +199,9 @@ int main(){
 
 return 0;
 }
+/*Alice has n candies, and she wants to distribute them equally among k kids. Each kid should get the same number of 
+whole candies, and leftover candies (if any) will be kept by Alice.
+Your task is to find out:
+1. How many candies each kid gets.
+2. How many candies are left with Alice.
+*/
