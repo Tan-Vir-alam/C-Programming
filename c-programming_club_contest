@@ -181,3 +181,11 @@ int main(){
     printf("\"The last digit is %lld\"\n",x);
 return 0;
 }
+
+
+
+//COntest No: 03.
+/*Elara has C chocolates and wants to pack them into boxes.
+Each box can hold up to B chocolates. She wants to use as few boxes as possible.
+Your task is to help her find the minimum number of boxes needed.
+*/
