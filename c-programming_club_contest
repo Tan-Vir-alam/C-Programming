@@ -275,3 +275,12 @@ N — the total number of cases presented to Sherlock,
 P — the number of cases he chose not to solve.
 Your mission is to calculate the percentage of cases Sherlock successfully solved, and thus, judge his performance in this grand contest of intellect.
 */
+#include<stdio.h>
+int main(){
+    long long int x,y;
+    scanf("%lld%lld",&x,&y);
+    float b = (y*100)/(x*1.0);
+    float a = (100-b);
+    printf("%.2lf%%\n",a);
+return 0;
+}
