@@ -230,3 +230,16 @@ random; they were part of a larger puzzle that had to be cracked to unlock the d
 John knew that the task wouldn’t be easy. He needed your help to calculate the sum of the digits based on the number 
 provided. He believed that solving this riddle would unlock the vault and allow him to claim the treasures hidden within!
 */
+
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    int a = x%10;
+    int b = (x/10)%10;
+    int c = (x/100)%10;
+    int d = (x/1000)%10;
+    int ans = a+b+c+d;
+    printf("%d\n",ans);
+return 0;
+}
