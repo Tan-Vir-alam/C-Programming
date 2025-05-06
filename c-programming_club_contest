@@ -293,3 +293,14 @@ the first line should display the square root, and the second line should showca
 Embark on the Precision Dilemma and unravel the intricacies of numerical representation in C. Will your solution 
 delicately balance the trade-off between precision and efficiency?
 */
+#include<stdio.h>
+int main(){
+    double x;
+    scanf("%lf",&x);
+    double a = sqrt(x);
+    printf("Square root: %.10lf\n",a);
+    int b = a;
+    double aa = (a-b)*10000000000;
+    printf("Decimal part: %.0f\n",aa);
+return 0;
+}
