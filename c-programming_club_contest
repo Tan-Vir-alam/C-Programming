@@ -252,3 +252,12 @@ The cost is Rs. X for the mess food each day, and Rs. Y for the restaurant splur
 Now, what's the cost of food per week? Note that you don't have to pay for the mess on Sundays.
 A week has seven days, as usual.
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d%d",&x,&y);
+    int a = (x*6);
+    int b = a+y;
+    printf("%d\n",b);
+return 0;
+}
