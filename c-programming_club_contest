@@ -215,3 +215,18 @@ int main(){
     printf("%ld left with Alice\n",b);
 return 0;
 }
+
+/*In a distant land, there was a small village nestled between mountains. The villagers often spoke of a mysterious vault 
+hidden deep within the heart of an ancient forest. For generations, the vault had remained locked, and no one knew 
+what treasures it contained.
+One day, a young adventurer named John came across the entrance to the vault while exploring the woods. The 
+entrance had an inscription, but there was no obvious key or way to open it. Upon closer inspection, he noticed a 
+sequence of numbers carved into the stone door. The numbers looked simple enough at first, but upon further 
+inspection, John realized that the vault would only open if he could unlock the mystery of these numbers.
+The numbers were a 4-digit code, but they were not random. The inscription hinted at a pattern: the sum of the digits 
+of the number carved on the door. However, John quickly realized that the sum of the digits wasn’t a simple calculation. 
+The secret to unlocking the vault lay in understanding the hidden logic behind the sequence. The digits were not just 
+random; they were part of a larger puzzle that had to be cracked to unlock the door.
+John knew that the task wouldn’t be easy. He needed your help to calculate the sum of the digits based on the number 
+provided. He believed that solving this riddle would unlock the vault and allow him to claim the treasures hidden within!
+*/
