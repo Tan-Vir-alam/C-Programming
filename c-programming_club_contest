@@ -284,3 +284,12 @@ int main(){
     printf("%.2lf%%\n",a);
 return 0;
 }
+
+/*In the realm of C programming, precision becomes an intriguing dilemma, embark on a journey through the Precision 
+Playground. Your task is to craft a program that takes a floating-point number X as input and calculates its square root.
+Your mission is to print the square root with up to 10 digits after the decimal point. Break down the result into two lines:
+the first line should display the square root, and the second line should showcase the value after the decimal point.
+340+ Square Root Stock Photos, Pictures & Royalty-Free Images - iStock |  Square root symbol, Square root math, Square root calculator
+Embark on the Precision Dilemma and unravel the intricacies of numerical representation in C. Will your solution 
+delicately balance the trade-off between precision and efficiency?
+*/
