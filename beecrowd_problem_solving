@@ -333,3 +333,19 @@ were positives values and if A is even, write the message “Valores aceitos”
 (Accepted values). Otherwise, write the message “Valores nao aceitos” 
 (Values not accepted).
 */
+
+#include<stdio.h>
+int main(){
+    int a,b,c,d;
+    scanf("%d %d %d %d",&a,&b,&c,&d);
+    int x = d+c;
+    int y = a+b;
+    int z = (a%2);
+    if (b>c && d>a && x>y && c>0 && d>0 && z==0){
+        printf("Valores aceitos\n");
+    }
+    else{
+        printf("Valores nao aceitos\n");
+    }
+return 0;
+}
