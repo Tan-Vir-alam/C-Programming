@@ -385,3 +385,17 @@ of the game, knowing that the game can begin in a day and finish in another day,
 with a maximum duration of 24 hours. The message must be printed in portuguese 
 “O JOGO DUROU X HORA(S)” that means “THE GAME LASTED X HOUR(S)”
 */
+#include<stdio.h>
+int main(){
+    int start,end;
+    scanf("%d %d",&start,&end);
+    int hour = end-start;
+    if(hour<=0){
+        int hour2 = hour+24;
+        printf("O JOGO DUROU %d HORA(S)\n",hour2);
+    }
+    if(hour>0){
+        printf("O JOGO DUROU %d HORA(S)\n",hour);
+    }
+return 0;
+}
