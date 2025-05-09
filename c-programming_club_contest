@@ -348,3 +348,10 @@ int main(){
     printf("%.4lf\n",d);
 return 0;
 }
+
+/*Programmers are actually leaving their physical bodies when they program. They transcend to another dimension
+where their soul meets the codes. They sit on a chair for hours trying to come up with different logic to approach
+or solve a problem. They don’t do any cardio to keep in shape. Their only motto is,
+’Coding’ is my ‘cardio’.
+Output: 'Coding' is my 'cardio'.
+*/
