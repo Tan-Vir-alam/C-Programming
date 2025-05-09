@@ -319,3 +319,18 @@ int main(){
     printf("%d\n",ans);
 return 0;
 }
+
+/*Input: 1. A single line containing two real numbers a and b.
+2. Constraints: -10^6 ≤ a, b ≤ 10^6, b ≠ 0.
+3. Both numbers may have up to 6 digits after the decimal point.
+
+Output: a) Print exactly four lines:
+1.The sum of a and b.
+2. The difference between a and b.
+3. The product of a and b.
+4. The quotient of a divided by b.
+b) Each result must be displayed with exactly four digits after the decimal point, even if trailing zeroes 
+are needed.
+c) Important: Make sure your answers are properly rounded, not simply truncated!
+See the input/output section for more clarification
+*/
