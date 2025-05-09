@@ -304,3 +304,10 @@ int main(){
     printf("Decimal part: %.0f\n",aa);
 return 0;
 }
+
+/*Alex and Ben are two best friends who love solving programming problems together. One sunny afternoon, while
+sitting in the park, Alex challenged Ben:
+"Tell me two numbers, and I’ll immediately tell you which one is bigger!"
+Ben thought, “That’s easy!” Now your task is to help Alex by writing a program that takes two numbers and prints
+out the maximum one.
+*/
