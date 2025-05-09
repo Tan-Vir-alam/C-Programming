@@ -216,6 +216,15 @@ int main(){
 return 0;
 }
 
+/*Little Alex has just started learning programming. Today, he learned about even and odd numbers. To practice,
+he wants to write a simple program that tells whether a given number is even or odd.
+However, Alex accidentally deleted his code! He remembers the logic, but not how to implement it. Can you help
+Alex complete his task?
+You are given an integer n. Your job is to:
+1. Print 1 if the number is even.
+2. Print 0 if the number is odd.
+*/
+
 /*In a distant land, there was a small village nestled between mountains. The villagers often spoke of a mysterious vault 
 hidden deep within the heart of an ancient forest. For generations, the vault had remained locked, and no one knew 
 what treasures it contained.
