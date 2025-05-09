@@ -355,3 +355,8 @@ or solve a problem. They don’t do any cardio to keep in shape. Their only mott
 ’Coding’ is my ‘cardio’.
 Output: 'Coding' is my 'cardio'.
 */
+#include<stdio.h>
+int main(){
+    printf("'Coding' is my 'cardio'.\n");
+return 0;
+}
