@@ -334,3 +334,17 @@ are needed.
 c) Important: Make sure your answers are properly rounded, not simply truncated!
 See the input/output section for more clarification
 */
+#include<stdio.h>
+int main(){
+    double x,y;
+    scanf("%lf%lf",&x,&y);
+    double a = x+y;
+    printf("%.4lf\n",a);
+    double b = (x-y);
+    printf("%.4lf\n",b);
+    double c = (x*y);
+    printf("%.4lf\n",c);
+    double d = (x/y);
+    printf("%.4lf\n",d);
+return 0;
+}
