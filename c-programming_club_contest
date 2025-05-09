@@ -224,6 +224,14 @@ You are given an integer n. Your job is to:
 1. Print 1 if the number is even.
 2. Print 0 if the number is odd.
 */
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    int ans = ((x%2)+1)%2;
+    printf("%d\n",ans);
+return 0;
+}
 
 /*In a distant land, there was a small village nestled between mountains. The villagers often spoke of a mysterious vault 
 hidden deep within the heart of an ancient forest. For generations, the vault had remained locked, and no one knew 
