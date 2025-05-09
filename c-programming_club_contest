@@ -311,3 +311,11 @@ sitting in the park, Alex challenged Ben:
 Ben thought, “That’s easy!” Now your task is to help Alex by writing a program that takes two numbers and prints
 out the maximum one.
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d%d",&x,&y);
+    int ans = (x+y+abs(x-y))/2;
+    printf("%d\n",ans);
+return 0;
+}
