@@ -506,3 +506,18 @@ If it is not possible, calculate the area of the trapezium which basis A and B a
 as height, and print the message:
 Area = XX.X
 */
+#include<stdio.h>
+int main(){
+    double x,y,z;
+    scanf("%lf %lf %lf",&x,&y,&z);
+    if(x+y>z && x+z>y && z+y>x){
+        double perimetro = x+y+z;
+        printf("Perimetro = %.1lf\n",perimetro);
+    }
+    else{
+        double area = ((x+y)*z)/2;
+    printf("Area = %.1lf\n",area);
+
+    }
+return 0;
+}
