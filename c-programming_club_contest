@@ -434,3 +434,9 @@ int main(){
 return 0;
 }
 
+/*A little turtle wants to reach its favorite pond located X meters away from its home.
+The turtle can walk exactly 1, 2, 3, 4, or 5 meters in a single step.
+You need to determine the minimum number of steps the turtle must take to reach exactly X meters.
+However, the turtle gets tired if it takes more than 100 steps in total.
+If that happens, print Tired instead of the number of steps.
+*/
