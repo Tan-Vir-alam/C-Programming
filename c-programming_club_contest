@@ -377,3 +377,18 @@ int main(){
     printf("'Coding' is my 'cardio'.\n");
 return 0;
 }
+
+
+
+//Contest No: 04;
+
+/*Once upon a time, there was a kingdom where all the numbers lived in harmony. The even numbers were always
+paired up, and the odd numbers formed their own groups. Everyone was content with their place in the kingdom.
+But one day, a strange number appeared in the kingdom. Its name was n, and nobody knew whether it belonged
+to the even or the odd group. The numbers were puzzled and worried that their peaceful kingdom might be in
+danger.
+To restore order, the numbers held a council and decided to create a special program that would determine
+whether n was even or odd. They called it "The Odd One Out" program.
+Your task is to write this program. Given a positive integer n, your program should output EVEN if n is even,
+and ODD otherwise.
+*/
