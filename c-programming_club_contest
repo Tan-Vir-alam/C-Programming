@@ -440,3 +440,18 @@ You need to determine the minimum number of steps the turtle must take to reach 
 However, the turtle gets tired if it takes more than 100 steps in total.
 If that happens, print Tired instead of the number of steps.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    double a = ceil(x/5.00);
+    if(a>100){
+        printf("Tired\n");
+    }
+    if(a<=100){
+        printf("%.0lf\n",a);
+    }
+
+return 0;
+}
