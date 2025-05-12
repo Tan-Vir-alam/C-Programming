@@ -423,3 +423,14 @@ messy papers.Defeated, he leaned back in his chair and sighed. Realizing he need
 “Sam,” he said, calling you, “I think I’m stuck. Can you help me out?” And that’s how you got pulled into Naeem’s
 dollar drama. So help him.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double x;
+    scanf("%lf",&x);
+    double a = ceil(x);
+    double b = a*a;
+    printf("%.2lf\n",b);
+return 0;
+}
+
