@@ -392,3 +392,17 @@ whether n was even or odd. They called it "The Odd One Out" program.
 Your task is to write this program. Given a positive integer n, your program should output EVEN if n is even,
 and ODD otherwise.
 */
+#include<stdio.h>
+int main(){
+    long long int x;
+    scanf("%lld",&x);
+    long long int a = x%2;
+    if(a==0){
+        printf("EVEN\n");
+    }
+    if(a!=0){
+        printf("ODD\n");
+    }
+
+return 0;
+}
