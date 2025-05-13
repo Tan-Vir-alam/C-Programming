@@ -482,3 +482,17 @@ int main(){
 
 return 0;
 }
+
+/*In a hidden library of ancient formulas, a mathematician uncovered a powerful equation:
+Y = ((a^b)/b)
+Where a and b are integers, and a is raised to the power of b, then divided by b.
+The mathematician discovered that to fully understand the result, one must extract two key components 
+from the computed value of y:
+1. The decimal part (integer part of the result).
+2. The first 3 digits of the fractional part
+Your task is to:
+* Compute y.
+* Extract and display:
+The decimal part of y.
+The first 3 digits of the fractional part.
+*/
