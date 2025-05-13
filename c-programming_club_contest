@@ -510,3 +510,15 @@ int main(){
 
 return 0;
 }
+
+/*One day, a girl named Alika was exploring an old and quiet palace. While walking through the dusty rooms,
+she found a magical door with buttons for numbers. On the wall, she saw some instructions:
+"Press two numbers to open the door. The order you press them in will decide where you go."
+So, Alika pressed two numbers.
+*) If the first number is smaller than the second, the door opens and takes her to a new universe.
+*) But if the first number is greater than the second, she falls into a magical garden.
+There, she finds another magical door that needs just one more number:
+1. If that number is even, she goes to a new universe.
+2. If that number is odd, she returns to the old palace.
+Write a C program to help Alika. Based on the numbers she presses, your program will print where she ends up.
+*/
