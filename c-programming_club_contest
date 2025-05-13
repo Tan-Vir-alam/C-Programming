@@ -468,3 +468,17 @@ Find his final coordinates after this trial. If Michael successfully returns to 
 caught i.e. ends up at (0, 0), print an additional line:
 Preparation can only take you so far, after that you’ve got to take a few leaps of faith.
 */
+#include<stdio.h>
+int main(){
+    int a,b,c,d;
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    int x = a-c;
+    int y = b-d;
+    printf("%d ",x);
+    printf("%d\n",y);
+    if(x == 0){
+        printf("Preparation can only take you so far, after that you’ve got to take a few leaps of faith.\n");
+    }
+
+return 0;
+}
