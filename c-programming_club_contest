@@ -540,3 +540,11 @@ int main(){
         }
     }
 }
+
+/*Bob is learning about the ASCII values of characters and how uppercase and lowercase letters are represented 
+differently. He discovered that each lowercase English letter ('a' to 'z') has a corresponding uppercase letter 
+('A' to 'Z'), and vice versa.
+To help Bob practice, you are given a single English letter. Your task is to convert the letter to its opposite case:
+1. If the letter is in lowercase, convert it to uppercase.
+2. If the letter is in uppercase, convert it to lowercase.
+*/
