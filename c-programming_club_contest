@@ -455,3 +455,16 @@ int main(){
 
 return 0;
 }
+
+/*It’s another quiet night inside Fox River Penitentiary, and Michael Scofield is conducting a trial run for his
+escape plan — testing each route, each turn, without actually fleeing the prison. He begins at his cell block,
+which is located at coordinate (0, 0) on a 2D grid representing the prison layout.
+He follows a path as part of the simulation. He will do the following moves:
+1. first, A units along positive X axis
+2. then, B units along positive Y axis
+3. then, C units along negative X axis
+4. finally, D units along negative Y axis
+Find his final coordinates after this trial. If Michael successfully returns to his starting point without being
+caught i.e. ends up at (0, 0), print an additional line:
+Preparation can only take you so far, after that you’ve got to take a few leaps of faith.
+*/
