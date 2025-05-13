@@ -496,3 +496,17 @@ Your task is to:
 The decimal part of y.
 The first 3 digits of the fractional part.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double x,y;
+    scanf("%lf %lf",&x,&y);
+    double a = pow(x, y)/y;
+    int d = a;
+    printf("Decimal part = %d\n",d);
+    double f = (a-d)*1000;
+    int frac = f;
+    printf("Fractional part = %03d\n",frac);
+
+return 0;
+}
