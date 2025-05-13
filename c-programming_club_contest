@@ -522,3 +522,21 @@ There, she finds another magical door that needs just one more number:
 2. If that number is odd, she returns to the old palace.
 Write a C program to help Alika. Based on the numbers she presses, your program will print where she ends up.
 */
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d",&a,&b);
+    if(a<b){
+        printf("New Universe\n");
+    }
+    if(a>b){
+        scanf("%d",&c);
+        c = c%2;
+        if(c==0){
+            printf("New Universe\n");
+        }
+        if(c!=0){
+            printf("Return Back\n");
+        }
+    }
+}
