@@ -648,3 +648,37 @@ calculations result in an even number:
 An even number, as you know, is an integer perfectly divisible by 2. Where 0 is also an even number. Your task is to
 help Alice and Bob determine if they can trigger the magical event.
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int a = x+y;
+    int b = x-y;
+    int c = x*y;
+    int d = x/y;
+    int e = x%y;
+    int count = 0;
+    if(a%2==0){
+        count++;
+    }
+    if(b%2==0){
+        count++;
+    }
+    if(c%2==0){
+        count++;
+    }
+    if(d%2==0){
+        count++;
+    }
+    if(e%2==0){
+        count++;
+    }
+    if(count<2){
+        printf("This is very Annoying.\n");
+    }
+    if(count>=2){
+        printf("Hurrah! I won the Game.\n");
+    }
+
+return 0;
+}
