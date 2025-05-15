@@ -38,3 +38,24 @@ int main(){
     }
 return 0;
 }
+
+/*Name: Shopping
+Problem: Tanvir and Kawser have gone out for shopping, and Tanvir wants to buy a new pair of 
+shoes for Eid. He has enough money to buy anything. However, Tanvir will only buy shoes 
+if kawser also buys a pair. And kawser will buy a pair of shoes if he can buy a panjabi. That 
+means everything depends on the panjabi.
+
+You have decided that kawser will buy a panjabi only if he has more than 1000 Taka. After 
+purchasing the panjabi the amount of his money will be reduced by 1000. Suppose kawser 
+has 1600 taka with him, after buying the panjabi he will have 600 taka left with him.
+Then kawser will only buy shoes if he has 500 Taka or more left. That means, if kawser 
+can't buy Punjabi he can't buy shoes.
+Now if I inform you of the amount of N taka that Kawser's mother will give him. Can you 
+tell me what will happen next?
+
+*If Kawser buys a Panjabi print "KAWSER WILL BUY PANJABI".
+*If Kawser buys a pair of Shoes print "KAWSER WILL BUY NEW SH0ES"
+*If Tanvir buys a pair of Shoes print "TANVIR WILL BUY NEW SH0ES"
+*If no one can buy anything print "BAD LUCK!"
+Note: Don't forget to print a new line after every line you print.
+*/
