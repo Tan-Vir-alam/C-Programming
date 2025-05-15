@@ -203,3 +203,11 @@ int main(){
     printf("%d\n",ans);
 return 0;
 }
+
+/*Problem Name: Biggest Name
+Problem: Mr Abu Kop is confused about an calculation. He can't calculate with name is big. Is his 
+firstname is big or lastname is big. can you help Mr Abu to find big name. You must calculate with 
+ASCII value of character.
+Input Format: There will be 6 character. First Three character represented Fistname and Last Three 
+character name Lastname.
+*/
