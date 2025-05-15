@@ -1,0 +1,13 @@
+//Here my University online C programming contest (problem & solve).
+
+//Contest No : 01
+
+/*Name: Coordunates of a Point.
+Problem: Given two numbers X, Y which donate coordinates of a point in 2D plan. Determine in 
+which quarter does it belong.
+Note:
+1. Print Q1, Q2, Q3, Q4 according to the quarter in which the point belongs to.
+2. Print "Origem" If the point is at the origin.
+3. Print "Eixo X" If the point is over X axis.
+4. Print "Eixo Y" if the point is over Y axis.
+*/
