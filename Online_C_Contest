@@ -211,3 +211,19 @@ ASCII value of character.
 Input Format: There will be 6 character. First Three character represented Fistname and Last Three 
 character name Lastname.
 */
+#include<stdio.h>
+int main(){
+    char a,b,c,d,e,f;
+    scanf("%c %c %c %c %c %c",&a,&b,&c,&d,&e,&f);
+    int first = a+b+c;
+    int sec = d+e+f;
+    if(first>sec){
+        printf("First Name Is Big\n");
+    }
+    else{
+        printf("Last Name Is Big\n");
+    }
+
+
+return 0;
+}
