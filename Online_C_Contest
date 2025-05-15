@@ -160,3 +160,15 @@ If they buy 4 burgers each person will get 1.33 burger
 Input Format: Input contains two lines, first one determining the value of x, y, z and the second 
 line contains how much the burger costs(m)
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double x,y,z,m;
+    scanf("%lf %lf %lf %lf",&x,&y,&z,&m);
+    double total_taka = (x+y+z);
+    double total_burger = flor(total_taka/m);
+    double ammount_burger = total_burger/3;
+    printf("The total number of burgers : %.0lf\n",total_burger);
+    printf("Each person will get : %.2lf Amount of Burger\n",ammount_burger);
+return 0;
+}
