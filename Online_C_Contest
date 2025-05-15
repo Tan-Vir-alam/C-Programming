@@ -148,3 +148,15 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: Burger buying dilemm
+Problem: Eibrahim, Rifat, and Rikon, three friends with varying financial capacities, have decided to 
+satisfy their cravings with burgers.
+Eibrahim possesses x taka, Rifat holds y taka, and Rikon carries z taka. However, the price of each 
+burger is m taka.
+Determine the maximum number of burgers 3 friends can purchase with their combined budget and also 
+calculate the exact fractional amount of burger that each one of them will get.
+If they buy 4 burgers each person will get 1.33 burger
+Input Format: Input contains two lines, first one determining the value of x, y, z and the second 
+line contains how much the burger costs(m)
+*/
