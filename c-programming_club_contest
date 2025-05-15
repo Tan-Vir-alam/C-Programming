@@ -600,3 +600,37 @@ ancients. Intrigued by this strange rule, Somrat decided to build a counter to u
 are hidden within a number.
 You are given an integer n. Count the nice digits in a number.
 */
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    int a = x%10;
+    int b = (x/10)%10;
+    int c = ((x/10)/10)%10;
+    int count = 0;
+    if(a==6){
+        count++;
+    }
+    if(a==9){
+        count++;
+    }
+    if(b==9){
+        count++;
+    }
+    if(b==6){
+        count++;
+    }
+    if(c==9){
+        count++;
+    }
+    if(c==6){
+        count++;
+    }
+    if(count<=1){
+        printf("%d Digit\n",count);
+    }
+    if(count>1){
+        printf("%d Digits\n",count);
+    }
+return 0;
+}
