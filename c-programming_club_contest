@@ -575,3 +575,20 @@ Your task is to determine the value of r (the radius of the circle) and the area
 Constraints:
 -10^16 ≤ circle area < square area ≤ 10^16
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    long long int A_circle;
+    long long int A_square;
+    scanf("%lld %lld",&A_circle,&A_square);
+    A_circle = abs(A_circle);
+	A_square = abs(A_square);
+
+    double a = (A_circle)/3.1416;
+    double r = sqrt(a);
+    printf("The radius of the circle = %.6lf\n",r);
+    long long int g = A_square-A_circle;
+    printf("The area of green color = %lld\n",g);
+
+return 0;
+}
