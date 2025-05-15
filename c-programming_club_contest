@@ -634,3 +634,17 @@ int main(){
     }
 return 0;
 }
+
+/*You are given two integer numbers, let's call them A and B. Imagine A and B represent the number of magical gems
+two young wizards, Alice and Bob, have collected. They want to combine their gems in various ways to see if they
+can trigger a special magical event.
+Their wise old mentor, Merlin, tells them that the magical event occurs if at least two of the following five
+calculations result in an even number:
+1. Addition (A + B): The total number of gems they have together.
+2. Subtraction (A - B): The difference in the number of gems.
+3. Multiplication (A * B): The product of their gem counts.
+4. Integer Division (A / B): How many gems Alice has per Bob's gems (ignoring any remainder).
+5. Modulus (A % B): The remainder when Alice's gems are divided by Bob's gems.
+An even number, as you know, is an integer perfectly divisible by 2. Where 0 is also an even number. Your task is to
+help Alice and Bob determine if they can trigger the magical event.
+*/
