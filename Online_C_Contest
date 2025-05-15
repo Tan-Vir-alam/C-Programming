@@ -90,3 +90,21 @@ Solved number of problems p is given. Now your task is to display,
 . Way To Go (if p=10)
 . Seek For Help (otherwise)
 */
+#include<stdio.h>
+int main(){
+    int p;
+    scanf("%d",&p);
+    if(p>2 && p<=5){
+        printf("Push Your Limits\n");
+    }
+    else if(p>5 && p<=9){
+        printf("Keep Pace Up\n");
+    }
+    else if(p==10){
+        printf("Way To Go\n");
+    }
+    else{
+        printf("Seek For Help\n");
+    }
+return 0;
+}
