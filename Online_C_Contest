@@ -190,3 +190,16 @@ the squared product of 'a' and 'b', and then adding square of 'b'. The specific 
 and 'b' will determine the numerical outcome of this expression.
 lets Combine the formulas and find the value with POSITIVE mind.
 */
+/*
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int x = a*a;
+    int y = (a*b)*(a*b);
+    int z = b*b;
+    int ans = x-y+z;
+    ans = abs(ans);
+    printf("%d\n",ans);
+return 0;
+}
