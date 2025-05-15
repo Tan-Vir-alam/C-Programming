@@ -172,3 +172,21 @@ int main(){
     printf("Each person will get : %.2lf Amount of Burger\n",ammount_burger);
 return 0;
 }
+
+/*Problem Name: Discover new formula
+Problem: In a distant village, there were two close friends, Alina and Ben. They stumbled upon a 
+hidden cave containing a pair of enchanted amulets that promised extraordinary powers. The 
+amulets, when worn together, had the ability to unveil hidden truths.
+One day, as they discussed Albert Einstein and researched common formulas, they stumbled upon a 
+new formula closely resembling (a-b)^2. However, they decided to experiment with a different 
+approach. which is like-
+There are three step to solve the problem:
+a^2: This term represents the square of the variable a
+-(a*b)^2: This term represents the square of the product of a and b..
++b^2: Finally,This term represents the square of the variable b.
+
+In summary, the entire expression calculates a value by taking the square of 'a', subtracting 
+the squared product of 'a' and 'b', and then adding square of 'b'. The specific values of 'a' 
+and 'b' will determine the numerical outcome of this expression.
+lets Combine the formulas and find the value with POSITIVE mind.
+*/
