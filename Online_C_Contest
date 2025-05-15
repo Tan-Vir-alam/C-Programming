@@ -232,3 +232,8 @@ return 0;
 Problem: From now, you all start your Coding Journey. We all wish you good luck. Just remember one thing Never Give Up.
 Just print a line saying "Never Give Up" (without the quotation marks).
 */
+#include<stdio.h>
+int main(){
+    printf("Never Give Up\n");
+return 0;
+}
