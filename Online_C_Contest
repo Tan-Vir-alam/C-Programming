@@ -59,3 +59,21 @@ tell me what will happen next?
 *If no one can buy anything print "BAD LUCK!"
 Note: Don't forget to print a new line after every line you print.
 */
+#include<stdio.h>
+int main(){
+    long long int Kawser_money;
+    scanf("%lld",&Kawser_money);
+    if(Kawser_money>=1500){
+        printf("KAWSER WILL BUY PANJABI\nKAWSER WILL BUY NEW SH0ES\nTANVIR WILL BUY NEW SH0ES\n");
+    }
+    else if(Kawser_money>1000 && Kawser_money<1500){
+        printf("KAWSER WILL BUY PANJABI\n");
+    }
+    else if(Kawser_money>=1 && Kawser_money<=1000){
+        printf("BAD LUCK!\n");
+    }
+    else{
+        printf("");
+    }
+return 0;
+}
