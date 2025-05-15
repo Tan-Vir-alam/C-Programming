@@ -592,3 +592,11 @@ int main(){
 
 return 0;
 }
+
+/*In the quiet village of Numerica, young coder Somrat stumbled upon an old book titled 'The Secrets of Nice
+Numbers'. Inside, he found a curious definition: "A digit is considered nice if it is either 6 or 9." He
+realized that identifying these digits in any number could help decode hidden messages left behind by the
+ancients. Intrigued by this strange rule, Somrat decided to build a counter to uncover how many nice digits
+are hidden within a number.
+You are given an integer n. Count the nice digits in a number.
+*/
