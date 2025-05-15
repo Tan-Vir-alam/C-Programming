@@ -77,3 +77,16 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: What's Your Level?
+Problem:  These contests are designed to test your limits on the basic concepts of programming. 
+There are a total of ten problems. One is at the beginner level if he can solve more 
+than two problems. And he is at a good beginner level if he solves more than five problems. 
+If someone solves all the problems, he is at an intermediate level. If he doesn't fit any 
+of the levels, he should seek for help.
+Solved number of problems p is given. Now your task is to display,
+. Push Your Limits (if p>2)
+. Keep Pace Up (if p>5)
+. Way To Go (if p=10)
+. Seek For Help (otherwise)
+*/
