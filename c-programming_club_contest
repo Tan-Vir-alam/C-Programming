@@ -564,3 +564,14 @@ int main(){
 
 return 0;
 }
+
+/*In a secret laboratory, a circle and a square were drawn on a magical board. The circle has an area of A_circle, and
+the square has an area of A_square. Strangely, their positions are such that the circle's center coincides with the
+square's center, and the circle's radius r is equal to half the length of the square's diagonal. If anyone gives the
+value of the circle area, then the right value of ‘r’ will arise immediately.
+In the laboratory, there is a robot, a lab assistant named “ROBOTO“, and he has no idea about the area of any shape.
+So he gives the positive and non-positive values randomly, but very strangely, the right answer arises every time.
+Your task is to determine the value of r (the radius of the circle) and the area of green color in the square.
+Constraints:
+-10^16 ≤ circle area < square area ≤ 10^16
+*/
