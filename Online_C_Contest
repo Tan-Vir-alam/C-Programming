@@ -249,3 +249,13 @@ To prepare for the competition, they used their knowledge of history and analyze
 weaknesses of their armies. They determined that the difference in the size of their armies would be
 a key factor in the outcome of the battle.
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    printf("%d\n",x>y);
+    int d = x-y;
+    d = abs(d);
+    printf("%d\n",d);
+return 0;
+}
