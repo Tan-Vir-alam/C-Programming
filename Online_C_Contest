@@ -322,3 +322,19 @@ int main(){
 Problem: You are given two integers 'a' and 'b'. Your task is to determine whether the sum of 'a' 
 and 'b' is Positive, Negative, or Zero.
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    int ans = x+y;
+    if(ans>0){
+        printf("Positive\n");
+    }
+    else if(ans==0){
+        printf("Zero\n");
+    }
+    else{
+        printf("Negative\n");
+    }
+return 0;
+}
