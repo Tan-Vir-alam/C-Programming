@@ -280,3 +280,12 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: Watermelon Sharing
+Problem: You are given the weight of a watermelon 'w'. Your task is to determine if it's possible to 
+share the watermelon among two friends, with each friend receiving an even number of kilograms.
+* Input Format: The input consists of a single integer 'w' representing the weight of the watermelon.
+* Constraints: (1 ≤ w ≤ 100)
+* Output Format: Print "YES" if it's possible to divide the watermelon into two even parts, each 
+weighing an even number of kilograms. Otherwise, print "NO".
+*/
