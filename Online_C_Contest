@@ -302,3 +302,13 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: Slash Game
+Problem: All you know, Our Tanvir Vaiya is a good programmer. But sometime he played some 
+weird games. Like- making symbols with Forwardslash(/), BackSlash() & Percentage(%) sign.
+So he art a line with 3 three symbols.
+
+                        /\/ /\ "%" \/
+                        
+Your task is print this line.
+*/
