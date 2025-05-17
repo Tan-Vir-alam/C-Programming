@@ -268,3 +268,15 @@ Given John's age, a, and the legal age to get married in his country, x, your ta
 it's legal for him to get married or not. If it is legal, print "Y" (without quotes). Otherwise, print "N" 
 (without quotes).
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    if(x<y){
+        printf("N\n");
+    }
+    else{
+        printf("Y\n");
+    }
+return 0;
+}
