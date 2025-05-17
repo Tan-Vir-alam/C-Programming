@@ -259,3 +259,12 @@ int main(){
     printf("%d\n",d);
 return 0;
 }
+
+/*Problem Name: The Age of Love
+Problem: John has finally found the love of his life and is ready to tie the knot. But as he prepares to 
+propose, he realizes that his age may be a hurdle. He's not sure if he's legally allowed to get married 
+in his country or not. Can you help him?
+Given John's age, a, and the legal age to get married in his country, x, your task is to determine whether 
+it's legal for him to get married or not. If it is legal, print "Y" (without quotes). Otherwise, print "N" 
+(without quotes).
+*/
