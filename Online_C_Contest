@@ -312,3 +312,8 @@ So he art a line with 3 three symbols.
                         
 Your task is print this line.
 */
+#include<stdio.h>
+int main(){
+    printf("/\\/ /\\ \"%%\" \\/\n");
+    return 0;
+}
