@@ -237,3 +237,15 @@ int main(){
     printf("Never Give Up\n");
 return 0;
 }
+
+/*Problem Name: Battle of Armies
+Problem: In ancient times, there were two great kings, Ibrahim Lodi and Babur, who ruled over their
+kingdoms with wisdom and fairness. They were known for their knowledge of history and their ability
+to accurately predict the outcomes of battles.
+One day, Ibrahim Lodi and Babur decided to test their skills against each other in a friendly 
+competition. They agreed to enter their armies into a simulated battle and see which king could 
+accurately predict the outcome.
+To prepare for the competition, they used their knowledge of history and analyzed the strengths and 
+weaknesses of their armies. They determined that the difference in the size of their armies would be
+a key factor in the outcome of the battle.
+*/
