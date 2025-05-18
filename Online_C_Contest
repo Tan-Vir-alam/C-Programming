@@ -514,5 +514,13 @@ int main(){
     int sq = sqrt(cubic)*10;
     printf("%d",sq%100);
 return 0;
-
 }
+
+/*Problem Name: Mythical ascii -01
+Problem: Book Name Mythical ASCII. It's has Only One question. There are Given 2 Input. Those can 
+be Charater/Number/Symbol.
+You Have to Find out What is there type(Char/Number/Symbol)
+if First Input is Non - Number (A-Z,a-z, or Symbol). Just Print (Character/Symbol).
+If First Input is Number ( 0-9 ). Just print the Total Value of (Ascii value) those Input.
+N:B: Simple You will Print Character/Symbol/Number base on First Input Only. then Print the Total Value
+*/
