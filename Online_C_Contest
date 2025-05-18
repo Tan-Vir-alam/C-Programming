@@ -378,3 +378,8 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: Number Type
+Problem: You are given an integer 'n'. Your task is to determine whether 'n' is a positive, 
+negative, or zero, and whether it is odd or even.
+*/
