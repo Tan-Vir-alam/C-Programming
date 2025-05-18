@@ -455,3 +455,8 @@ int main(){
     }
 return 0;
 }
+
+/*Problem name: Banana buyer
+Problem: Mr. Bitla has T Dollars. He wants to buy banana. If every banana costs B taka then how 
+many banana he can buy and how much taka he will have extra. 1 Dollar = 109 taka.
+*/
