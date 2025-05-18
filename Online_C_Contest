@@ -408,3 +408,14 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: Sultan's Kingdom
+Problem: Sultan Fahim has three 3 sons (Abul(A), Babul(B), Chabul(C)) and 3 wives (Rojina(R), 
+Morjina(M), Torjina(T)). He is 73 now and unable to manage so many sons and wives. He wants 
+to divide his kingdom among them. After the partition, he wants his kingdom to be looked like this.
+ his kingdom shape is a hexagon. He wants to give the square shaped lands (A,B,C) to his sons 
+(where B=C) and triangle shaped lands (R,M,T) to his wives. And he wants to live right in the 
+center S of his kingdom.
+You are one of the best mathematicians in the kingdom. Now he seeks your help to do the partition. 
+You are given the area of A & B and you have to determine the area of S.
+*/
