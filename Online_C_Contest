@@ -440,3 +440,18 @@ knowing the types of triangle. If three of the lengths are equal then it is Equi
 Triangle. If two of the lengths are egual then it is Isosceles Triangle. If three lengths are 
 different then it is Scalene Triangle.
 */
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    if(a==b && b==c){
+        printf("Equilateral Triangle\n");
+    }
+    else if(a==b || b==c || c==a){
+        printf("Isosceles Triangle\n");
+    }
+    else{
+        printf("Scalene Triangle\n");
+    }
+return 0;
+}
