@@ -503,3 +503,16 @@ powers to defeat the Mystical Monarch.
 Last but not least, big powers can be easily detected by the Smart Evil Monarch. So your task 
 is to compress the final power with Sqrt() to outsmart him.
 */
+#include<stdio.h>
+int main(){
+    long long int a,b,c;
+    scanf("Hope: %lld : %lld : %lld",  &a,  &b,  &c);
+    a = abs(a);
+    b = abs(b);
+    c = abs(c);
+    double cubic = (a*a*a)+(b*b*b)+(c*c*c);
+    int sq = sqrt(cubic)*10;
+    printf("%d",sq%100);
+return 0;
+
+}
