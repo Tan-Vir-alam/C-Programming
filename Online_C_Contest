@@ -460,3 +460,16 @@ return 0;
 Problem: Mr. Bitla has T Dollars. He wants to buy banana. If every banana costs B taka then how 
 many banana he can buy and how much taka he will have extra. 1 Dollar = 109 taka.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double a,b;
+    scanf("%lf %lf",&a,&b);
+    double total_dollar = a*109;
+    int banana = total_dollar/b;
+    double extra_money = fmod(total_dollar, b);
+    printf("Number of Banana = %d\n",banana);
+    printf("Extra Money = %.3lf Dollar\n",extra_money/109);
+
+return 0;
+}
