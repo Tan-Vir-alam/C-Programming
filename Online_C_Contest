@@ -383,3 +383,28 @@ return 0;
 Problem: You are given an integer 'n'. Your task is to determine whether 'n' is a positive, 
 negative, or zero, and whether it is odd or even.
 */
+#include<stdio.h>
+int main(){
+    int x;
+    scanf("%d",&x);
+    if(x>0){
+        if(x%2==0){
+            printf("Positive Even\n");
+        }
+        else{
+            printf("Positive Odd\n");
+        }
+    }
+    else if(x<0){
+        if(x%2==0){
+            printf("Negative Even\n");
+        }
+        else{
+            printf("Negative Odd\n");
+        }
+    }
+    else{
+        printf("Zero\n");
+    }
+return 0;
+}
