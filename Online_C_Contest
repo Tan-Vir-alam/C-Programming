@@ -358,3 +358,8 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: symbol
+Problem: You are given two integers 'a' and 'b'. Your task is to determine whether 'a' is greater than, 
+less than, or equal to 'b'.
+*/
