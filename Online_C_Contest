@@ -492,3 +492,14 @@ int main(){
     printf("%d\n",ans);
 return 0;
 }
+
+/*Problem Name: The mystrical monarch (sung jin woo)
+Problem: Ashik bhai stucked in the world of The Mystical Monarch. To defeat the Monarch, he needs 
+the power of a combination of 3 elements. Luckily, he has somehow figured out the way to defeat 
+the Monarch.
+Basically, there are 3 mythical powers. Let’s name them X, Y, and Z.
+Unfortunately, that's not enough. So, you have to cube each of them and then combine the final 
+powers to defeat the Mystical Monarch.
+Last but not least, big powers can be easily detected by the Smart Evil Monarch. So your task 
+is to compress the final power with Sqrt() to outsmart him.
+*/
