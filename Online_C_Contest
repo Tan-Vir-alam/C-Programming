@@ -363,3 +363,18 @@ return 0;
 Problem: You are given two integers 'a' and 'b'. Your task is to determine whether 'a' is greater than, 
 less than, or equal to 'b'.
 */
+#include<stdio.h>
+int main(){
+    int x,y;
+    scanf("%d %d",&x,&y);
+    if(x>y){
+        printf(">\n");
+    }
+    else if(x<y){
+        printf("<\n");
+    }
+    else{
+        printf("=\n");
+    }
+return 0;
+}
