@@ -433,3 +433,10 @@ int main(){
    printf("%.4lf\n",area);
 return 0;
 }
+
+/*Problem Name: Triangle Introduction
+Problem: Khoka is a new student of class 5. He doesn't know the types of triangles. Help him 
+knowing the types of triangle. If three of the lengths are equal then it is Equilateral 
+Triangle. If two of the lengths are egual then it is Isosceles Triangle. If three lengths are 
+different then it is Scalene Triangle.
+*/
