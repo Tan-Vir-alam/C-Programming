@@ -524,3 +524,24 @@ if First Input is Non - Number (A-Z,a-z, or Symbol). Just Print (Character/Symbo
 If First Input is Number ( 0-9 ). Just print the Total Value of (Ascii value) those Input.
 N:B: Simple You will Print Character/Symbol/Number base on First Input Only. then Print the Total Value
 */
+#include<stdio.h>
+int main(){
+    char x,y;
+    scanf("%c %c",&x,&y);
+    int a = x;
+    int b = y;
+    if(a>=48 && a<=57){
+        printf("Number\n");
+        printf("%d",a+b);
+    }
+    else if(a>=65 && a<=122){
+        printf("Character\n");
+        printf("%d",a+b);
+    }
+    else {
+        printf("Symbol\n");
+        printf("%d",a+b);
+    }
+
+return 0;
+}
