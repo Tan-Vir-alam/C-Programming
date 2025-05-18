@@ -484,3 +484,11 @@ assist your Kawser bhai?
 2) 9 2 4 = 69
 3) 8 6 3 = 89
 */
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    int ans = (a+b+c)+(a*b)+(a*c);
+    printf("%d\n",ans);
+return 0;
+}
