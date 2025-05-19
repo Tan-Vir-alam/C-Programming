@@ -551,3 +551,39 @@ Problem: Do you know What is Even Number ? Odd Number Prime number ? Ashik Vhiya
 remember! Can you help him to find the Number?
 Constraints : 1 <= N <= 10
 */
+#include<stdio.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+    if(a==1){
+        printf("0DD\n");
+    }
+    else if(a==2){
+        printf("EVEN\nPRIME\n");
+    }
+    else if(a==3){
+        printf("0DD\nPRIME\n");
+    }
+    else if(a==4){
+        printf("EVEN\n");
+    }
+    else if(a==5){
+        printf("0DD\nPRIME\n");
+    }
+    else if(a==6){
+        printf("EVEN\n");
+    }
+    else if(a==7){
+        printf("0DD\nPRIME\n");
+    }
+    else if(a==8){
+        printf("EVEN\n");
+    }
+    else if(a==9){
+        printf("0DD\n");
+    }
+    else{
+        printf("EVEN\n");
+    }
+return 0;
+}
