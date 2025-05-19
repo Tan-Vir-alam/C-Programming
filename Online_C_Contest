@@ -545,3 +545,9 @@ int main(){
 
 return 0;
 }
+
+/*Problem Name: Even-odd-prime number-01
+Problem: Do you know What is Even Number ? Odd Number Prime number ? Ashik Vhiya Can't 
+remember! Can you help him to find the Number?
+Constraints : 1 <= N <= 10
+*/
