@@ -587,3 +587,21 @@ int main(){
     }
 return 0;
 }
+
+/*Problem Name: I am phthagoras...!
+Problem: Once upon a time, in a quaint little town nestled among rolling hills, there lived a young 
+enthusiast of geometry named Alex. From an early age, Alex was fascinated by the elegant symmetries 
+and mathematical precision found within the realm of shapes and angles. His passion for geometry was 
+unrivaled, and he admired the ancient teachings of Pythagoras.Alex's father, Amir, had immigrated to 
+their town from the United Arab Emirates.
+One sunny afternoon, a package arrived at their doorstep from Amir's homeland. Excitedly, Alex open 
+the box to reveal a seemingly ordinary-looking stick. But as Alex picked it up, he noticed something 
+peculiar– the stick could change its shape at will! It could transform into a perfect circle, a 
+symmetrical triangle, or even a complex polygon with a simple twist and turn.
+Thrilled by this extraordinary gift, Alex immediately set to exploring the stick's capabilities. 
+He experimented with various shapes, marveling at the endless possibilities it offered.
+
+Input Format: The only line contains three integers X, Y, Z denoted the three sides of a triangle, 
+which is maked by the magical stick. Your task is to find the value of the circle which can be made 
+by the stick.
+*/
