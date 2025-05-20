@@ -642,3 +642,11 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Race To 100
+Problem: In the digital city of Numerica, two robots named Alpha and Beta are competing in a math 
+race. The rule is simple: get as close to 100 as possible.
+Each robot submits a number. Your task is to write a program that decides:
+Who is closer to the number 100
+If both are equally close, it's a tie — return 0
+This judgment system helps determine the winner with perfect fairness!
+*/
