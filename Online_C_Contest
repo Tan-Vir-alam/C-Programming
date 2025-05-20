@@ -650,3 +650,24 @@ Who is closer to the number 100
 If both are equally close, it's a tie — return 0
 This judgment system helps determine the winner with perfect fairness!
 */
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int a1 = 100-a;
+    int b1 = 100-b;
+    a1 = abs(a1);
+    b1 = abs(b1);
+    //printf("%d\n%d\n",a1,b1);
+    if(a1>b1){
+        printf("%d\n",b);
+    }
+    else if(b1>a1){
+        printf("%d\n",a);
+    }
+    else{
+        printf("0\n");
+    }
+return 0;
+}
+
