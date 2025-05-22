@@ -729,3 +729,18 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Ranking Dilemma
+Problem: Once upon a time in the sprawling lands of the Republic of Padokea, nestled amidst lush 
+forests and towering mountains, there lived a young boy named Killua Zoldyck. Born into the 
+infamous Zoldyck family, renowned for their mastery of assassination and feared by many, Killua's 
+childhood was far from ordinary. But In a parallel universe, Killua wanted to be a programmer.
+So, he started learning C programming and entered the world of problem solving. After some days, 
+he gave his first contest. But he didn't understand the timing in which the ranking of his contest 
+was based on. As he solved 5 problems respectively on M1, M2, M3, M4 & M5 minutes and submitted 
+total T times in that contest. Kilua wanted to find out the process of the total solution time in 
+the ranking. Help him to determine his total solution time in the contest. One wrong submission 
+means 20 minutes penalty.
+
+Input Format: The input contains six integers M1, M2, M3, M4 & M5 the submitted minutes of his
+solved problems & T the total times he submitted
+*/
