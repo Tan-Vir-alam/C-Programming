@@ -671,3 +671,10 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Time Consume
+Problem: Dekisugi does tuition for earning his money of semester fees. He manages 3 tuitions 
+per day. So he needs to go from one house to another house by walking as he has not enough 
+money to go by rickshaw. He takes T1 minutes for first tuition, T2 minutes for second tuition 
+and T3 minutes for third tuition. So he has to waste many times. Help Dekisugi counting how 
+many hours and minutes he takes to walk for tuitions.
+*/
