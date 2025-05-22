@@ -744,3 +744,14 @@ means 20 minutes penalty.
 Input Format: The input contains six integers M1, M2, M3, M4 & M5 the submitted minutes of his
 solved problems & T the total times he submitted
 */
+#include<stdio.h>
+int main(){
+    long long int m1,m2,m3,m4,m5,t;
+    scanf("%lld %lld %lld %lld %lld %lld",&m1,&m2,&m3,&m4,&m5,&t);
+    long long int total_M = m1+m2+m3+m4+m5;
+    long long int T = (t-5)*20;
+    long long int total_time = T + total_M;
+    printf("%lld\n",total_time);
+return 0;
+}
+
