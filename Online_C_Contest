@@ -719,3 +719,13 @@ Only the most intrepid and cunning adventurers dare to unravel the mysteries tha
 within these cursed halls.
 Hint: You can use the Pythagorean theorem to find out the value of c.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int a =7;
+    int b = 24;
+    int c = sqrt((b*b)+(a*a));
+    printf("%d\n",c);
+return 0;
+}
+
