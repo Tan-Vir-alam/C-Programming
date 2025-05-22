@@ -689,3 +689,14 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Magical Equation Solver
+Problem: In the enchanted realm of Hyrule, a mystical quadratic equation has been discovered:
+ax^2 + bx + c = 0
+
+Where magical energies swirl within the coefficients a = 2, b = -5, and c = -3. Your task is 
+to tap into the arcane forces and unveil the greatest integer solution for x.
+Your program should harness the ethereal powers without seeking input from mere mortals. 
+Participants are tasked with crafting code to decipher the equation's secrets and unveil the 
+largest integer solution for x. Once found, print this majestic integer as the culmination of 
+your mystical journey.
+*
