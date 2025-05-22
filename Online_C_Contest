@@ -678,3 +678,14 @@ money to go by rickshaw. He takes T1 minutes for first tuition, T2 minutes for s
 and T3 minutes for third tuition. So he has to waste many times. Help Dekisugi counting how 
 many hours and minutes he takes to walk for tuitions.
 */
+#include<stdio.h>
+int main(){
+    long long int t1,t2,t3;
+    scanf("%lld %lld %lld",&t1,&t2,&t3);
+    long long int total_min = t1+t2+t3;
+    long long int total_hours = total_min/60;
+    long long int min = total_min%60;
+    printf("%lld Hour %lld Minute\n",total_hours,min);
+return 0;
+}
+
