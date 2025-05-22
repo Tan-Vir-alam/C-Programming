@@ -706,3 +706,16 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Dungeaon of Fear & Hunger: Enigmatic Puzzle
+Problem: Within the labyrinthine depths of the dreaded Dungeon of Fear & Hunger, where 
+shadows coil and whispers echo endlessly, you stand before an ancient triangle shaped 
+tablet inscribed with cryptic symbols. In the flickering torchlight, you decipher a 
+mystifying message that speaks of a triangle concealed in the shadows.
+Of this triangle, two of the sides labeled as a = 7 and b = 24, and an angle of precisely
+90 degrees between them, your task is to pierce the veil of uncertainty and unveil the 
+length of the enigmatic side marked c.
+Brace yourself, for the secrets you seek lie beyond the reach of mortal comprehension. 
+Only the most intrepid and cunning adventurers dare to unravel the mysteries that dwell 
+within these cursed halls.
+Hint: You can use the Pythagorean theorem to find out the value of c.
+*/
