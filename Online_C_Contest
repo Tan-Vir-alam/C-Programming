@@ -777,3 +777,14 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Shopping Spree: Rounded-up
+Problem: Sabid loathes dealing with fractional numbers during his shopping endeavors. To simplify 
+matters, he rounds up the total cost of his purchases to the next whole number, ensuring he only 
+deals with integers.He gives out those extra cents as tips.
+Moreover, Sabid is a generous tipper, always adding $5 to his rounded-up total cost as a gratuity.
+Your task is to develop a program that helps Sabid calculate both the total cost of his shopping 
+spree and the corresponding tip amount.
+Write a C program that takes as input the price of 4 products Sabid wants to buy. The program 
+should then calculate the total cost(Including the tip) of Sabid's shopping trip and the total 
+amount of tip he intends to give out.
+*/
