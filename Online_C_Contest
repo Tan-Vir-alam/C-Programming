@@ -767,3 +767,13 @@ outnumbers the other or if the forces are evenly matched.
 Write a C program that takes as input the number of soldiers both armies. Your program should 
 then calculate and output the absolute difference in the number of soldiers between the two armies.
 */
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int d = a-b;
+    d = abs(d);
+    printf("%d\n",d);
+return 0;
+}
+
