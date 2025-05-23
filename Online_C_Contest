@@ -801,3 +801,21 @@ int main(){
 return 0;
 }
 
+/*Problem Name: The Curse
+Problem: In the sprawling depths of an ancient, ominous dungeon, four valiant adventurers - Link, 
+Samus, Luigi, and Falcon - embark on a perilous quest. Little do they know, a malevolent curse 
+lurks within, sapping their vitality with each passing moment.
+The curse, born from centuries of darkness, manifests differently for each hero, testing their 
+resilience in unique ways. Link, wielding the legendary Master Sword, finds himself grappling 
+with a curse that gnaws at his vitality with an unrelenting, yet manageable intensity. Samus, 
+encased in her high-tech Power Suit, faces a curse that, while less aggressive, still threatens 
+to diminish her strength. Luigi, the ever-reluctant hero, feels the curse's icy grip tighten 
+slightly more, his fear amplifying its effects. And then there's Falcon, the epitome of courage 
+and strength, yet even he is not immune, his indomitable spirit tested by the curse's 
+relentless onslaught.
+As they traverse the dungeon's twisting passages, encountering cursed artifacts and malevolent 
+energies, their health points diminish gradually, each step forward exacting a toll on their well-being.
+You are tasked with writing a program to simulate the harrowing journey of these four adventurers,
+calculating their remaining health points after enduring four rounds of the curse's relentless assault.
+Each character starts with 100 health points.
+*/
