@@ -819,3 +819,31 @@ You are tasked with writing a program to simulate the harrowing journey of these
 calculating their remaining health points after enduring four rounds of the curse's relentless assault.
 Each character starts with 100 health points.
 */
+#include<stdio.h>
+int main(){
+    int L1,L2,L3,L4,S1,S2,S3,S4,l1,l2,l3,l4,F1,F2,F3,F4;
+    scanf("%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d",&L1,&S1,&l1,&F1,&L2,&S2,&l2,&F2,&L3,&S3,&l3,&F3,&L4,&S4,&l4,&F4);
+    int L = L1+L2+L3+L4;
+    int S = S1+S2+S3+S4;
+    int Lu = l1+l2+l3+l4;
+    int F = F1+F2+F3+F4;
+    L = 100-L;
+    S = 100-S;
+    Lu = 100-Lu;
+    F = 100-F;
+    if(L>=0){
+        printf("Link   : %d\n",L);
+    }
+    if(S>=0){
+        printf("Samus  : %d\n",S);
+    }
+    if(Lu>=0){
+        printf("Luigi  : %d\n",Lu);
+    }
+
+    if(F>=0){
+        printf("Falcon : %d\n",F);
+    }
+return 0;
+}
+
