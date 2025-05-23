@@ -755,3 +755,15 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Edelgard's Army Arithmetic
+Problem: In the impending battle between the Adrestian Empire and the Holy Kingdom of Faerghus,
+the difference in the number of soldiers between the two opposing armies has become a point of 
+concern for Edelgard, the commander of the Adrestian forces. As a participant in a C programming 
+contest, your task is to develop a program that efficiently calculates and displays the disparit
+in the number of soldiers between the two armies.
+Given the number of soldiers in each army, your program should determine the absolute difference 
+in troop counts. Additionally, it should provide insights into whether one army significantly 
+outnumbers the other or if the forces are evenly matched.
+Write a C program that takes as input the number of soldiers both armies. Your program should 
+then calculate and output the absolute difference in the number of soldiers between the two armies.
+*/
