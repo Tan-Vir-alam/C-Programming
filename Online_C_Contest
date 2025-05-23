@@ -788,3 +788,16 @@ Write a C program that takes as input the price of 4 products Sabid wants to buy
 should then calculate the total cost(Including the tip) of Sabid's shopping trip and the total 
 amount of tip he intends to give out.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double a,b,c,d;
+    scanf("%lf %lf %lf %lf",&a,&b,&c,&d);
+    double total_taka = a+b+c+d;
+    double total_taka1 = ceil((total_taka)+5);
+    double tip = total_taka1-total_taka;
+    printf("Total = %.0lf\n",total_taka1);
+    printf("Tip = %.2lf\n",tip);
+return 0;
+}
+
