@@ -859,3 +859,33 @@ Input Format: The input consists of two character separated by a space.Moumita g
 Give their choices by inputting a single character ('R', 'P', or 'S').
 'S' for Scissors 'R' for Rock 'P' for Paper
 */
+#include<stdio.h>
+int main(){
+    char ch1,ch2;
+    scanf("%c %c",&ch1,&ch2);
+    int a = ch1;
+    int b = ch2;
+    if(a== 82 && b == 80){
+        printf("Sabid Wins!\n");
+    }
+    else if(a==82 && b ==83){
+        printf("Moumita Wins!\n");
+    }
+    else if(a==80 && b ==83){
+        printf("Sabid Wins!\n");
+    }
+    else if(a==80 && b ==82){
+        printf("Moumita Wins!\n");
+    }
+    else if(a==83 && b==82){
+        printf("Sabid Wins!\n");
+    }
+    else if(a==83 && b ==80){
+        printf("Moumita Wins!\n");
+    }
+    else if(a==b){
+        printf("Draw!\n");
+    }
+return 0;
+}
+
