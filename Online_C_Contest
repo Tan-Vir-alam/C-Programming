@@ -889,3 +889,10 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Handshake Hassle
+Problem: At a gentlemen's party, only the gentlemen were invited. And as they are very polite 
+and disciplined, every one of them handshaked each other. But they didn't handshake twice with 
+anyone. Your task is to find out, how many handshakes were made there?
+For example, There are 6 people (A, B, C, D, E, F) in the image below. And there were 15 
+handshakes.
+*/
