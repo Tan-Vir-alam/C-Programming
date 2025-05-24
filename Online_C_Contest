@@ -847,3 +847,15 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Battle of Wits
+Problem: Moumita and Sabid, renowned for their competitive spirits, engage in an electrifying 
+round of rock-paper-scissors. Moumita boldly selects her weapon first, opting for rock, while 
+Sabid shrewdly follows suit with paper. It's a clash of strategies as they adhere to the 
+timeless rules: rock is overpowered by paper, paper reigns over rock, and scissors cut through 
+paper. After their choices are revealed, determine the outcome of this thrilling encounter, 
+whether it's a triumphant victory for Moumita, a cunning win for Sabid, or a rare draw where 
+neither yields to the other.
+Input Format: The input consists of two character separated by a space.Moumita goes 1st then Sabid.
+Give their choices by inputting a single character ('R', 'P', or 'S').
+'S' for Scissors 'R' for Rock 'P' for Paper
+*/
