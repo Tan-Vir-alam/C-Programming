@@ -896,3 +896,13 @@ anyone. Your task is to find out, how many handshakes were made there?
 For example, There are 6 people (A, B, C, D, E, F) in the image below. And there were 15 
 handshakes.
 */
+#include <stdio.h>
+int main(){
+    int num;
+    scanf("%d",&num);
+    int sum = ((num-1)*num)/2;
+    printf("%d\n",sum);
+
+return 0;
+}
+
