@@ -711,3 +711,13 @@ However, Bob is tired of doing this manually every time, especially when the num
 to write a program that can do it for him.
 Can you help Bob?
 */
+#include<stdio.h>
+int main(){
+    long long int first,last;
+    scanf ("%d %d",&first,&last);
+    long long int n = (last-first)+1;
+    long long int sum = (n*(last+first))/2;
+    printf("%lld\n",sum);
+return 0;
+}
+
