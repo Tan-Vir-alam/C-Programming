@@ -682,3 +682,15 @@ int main(){
 
 return 0;
 }
+
+
+//Mega contest No: 01.
+
+/*Problem Name: Easy-Peasy
+Problem: You are given the following user log with some suspicious formatting.
+Your task is to print exactly the following lines, including all characters, 
+symbols, and spacing — as they appear in the log.
+Login: ADMIN
+Pass: PASSW0RD
+Note: All characters look correct... or do they?
+*/
