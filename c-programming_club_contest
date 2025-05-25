@@ -700,3 +700,14 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Range Sum
+Problem: Bob is a curious student who recently started learning about number ranges and arithmetic sequences. While 
+reading a book, he stumbled upon a simple yet important concept: calculating the sum of numbers between two given 
+integers.
+To practice, Bob wants to calculate the sum of all integers from a number L to a number R, inclusive. That means 
+he wants to compute:
+L + (L+1) + (L+2) + … + R
+However, Bob is tired of doing this manually every time, especially when the numbers are large. So, he asks you 
+to write a program that can do it for him.
+Can you help Bob?
+*/
