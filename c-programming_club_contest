@@ -694,3 +694,9 @@ Login: ADMIN
 Pass: PASSW0RD
 Note: All characters look correct... or do they?
 */
+#include<stdio.h>
+int main(){
+    printf("Login: ADMIN\nPass: PASSW0RD\nNote: All characters look correct... or do they?");
+return 0;
+}
+
