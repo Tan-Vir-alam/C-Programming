@@ -738,3 +738,31 @@ a No-ball “N“ (if it is a no-ball, the free hit will always produce runs, no
 Or Runs ('0' to '6')
 You can only score between 1 to 6 runs on each legal delivery. Your job is to calculate the total runs scored in a single over.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int a,b,c,d,e,f,total_run;
+    char g;
+    scanf("%d %d %d %c %d %d",&a,&b,&c,&g,&d,&e);
+    if(g=='O'){
+        scanf("%d",&f);
+        total_run = a+b+c+d+e+f;
+        printf("%d\n",total_run);
+    }
+    else if(g=='W'){
+        scanf("%d",&f);
+        total_run = a+b+c+d+e+f+1;
+        printf("%d\n",total_run);
+    }
+    else if(g=='N'){
+        scanf("%d",&f);
+        total_run = a+b+c+d+e+f+1;
+        printf("%d\n",total_run);
+    }
+    else {
+            g = abs(48-g);
+        total_run =a+b+c+d+e+g;
+        printf("%d\n",total_run);
+    }
+return 0;
+}
