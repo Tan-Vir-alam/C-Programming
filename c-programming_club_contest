@@ -779,3 +779,22 @@ Then, the blender blends min(x, c) fruits, where c is the current number of frui
 The blended fruits are immediately removed from the blender.
 Your task is to calculate the minimum number of seconds required for Fam to blend all his fruits.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    double fruits,per_sec,put_fruits;
+    scanf("%lf %lf %lf",&fruits,&per_sec,&put_fruits);
+    if(put_fruits<per_sec){
+        double num = (fruits/put_fruits);
+        num = ceil(num);
+        printf("%.0lf\n",num);
+    }
+    else{
+    double num= (fruits/per_sec);
+    num = ceil(num);
+    printf("%.0lf\n",num);
+    }
+
+return 0;
+}
+
