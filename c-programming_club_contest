@@ -721,3 +721,20 @@ int main(){
 return 0;
 }
 
+/*Problem Name: The Over That Wasn't Over Yet.
+Problem: Everyone has heard of or watched cricket, but do you truly understand the magic behind an over? Don't stress,
+I’ve got you covered!
+In cricket, an over consists of 6 legal deliveries. However, not all balls are legal.
+Let’s break it down:
+If a ball is a wide, it does not count towards the 6 legal deliveries. It adds 1 run to the total and the ball is re-bowled.
+If a ball is a no-ball, it does not count as well. It adds 1 run and the next ball (called a free hit) cannot result in a 
+wicket, but runs can still be scored.
+A legal delivery is a ball that is neither a wide nor a no-ball.
+Here’s the twist:
+In every over, the 4th ball (including extras) is guaranteed to be either:
+an Out “O“ (if it's a legal ball),
+a Wide “W“,
+a No-ball “N“ (if it is a no-ball, the free hit will always produce runs, not wickets),
+Or Runs ('0' to '6')
+You can only score between 1 to 6 runs on each legal delivery. Your job is to calculate the total runs scored in a single over.
+*/
