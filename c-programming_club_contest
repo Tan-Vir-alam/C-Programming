@@ -766,3 +766,16 @@ int main(){
     }
 return 0;
 }
+
+
+/*Problem Name: Fam's Blender
+Problem: Fam is promoting his powerful blender with a flashy demonstration.
+Fam has n fruits that he wants to blend. His blender operates with the following rules:
+It can blend up to x fruits per second.
+Fam can add up to y fruits into the blender per second.
+Each second:
+Fam puts up to y fruits into the blender.
+Then, the blender blends min(x, c) fruits, where c is the current number of fruits in the blender.
+The blended fruits are immediately removed from the blender.
+Your task is to calculate the minimum number of seconds required for Fam to blend all his fruits.
+*/
