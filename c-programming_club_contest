@@ -829,3 +829,13 @@ int main(){
 return 0;
 }
 
+
+/*Problem Name: Mindful Ten
+Problem: There are three monkeys in a forest. They are preparing to play a game called “Ten Words of Wisdom.”
+In the game, each monkey submits one response. The first monkey’s response contains a1​ words and has a quality 
+score of x1​. No two responses have the same quality, and no response is longer than ten words.
+The second monkey thinks he is smarter than the other two monkeys. That's why he only occasionally guesses words 
+greater than 10.
+The winner of the show is the response with the highest quality among those that are at most ten words long. 
+Which monkey wins?
+*/
