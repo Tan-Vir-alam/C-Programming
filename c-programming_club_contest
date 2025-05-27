@@ -798,3 +798,13 @@ int main(){
 return 0;
 }
 
+/*Problem Name: Weather App
+Problem: You are developing a Weather App that reports temperature conditions based on the user’s input 
+temperature in Celsius. Along with the temperature, the user inputs a numeric code.
+Your app must classify the temperature into one of three conditions:
+*) "Hot" if temperature > 30
+*) "Cold" if temperature < 20
+*) "Normal" if temperature is between 20 and 30 (inclusive)
+However, there is a secret override code built into the app. If the user inputs this secret code, the 
+app should ignore the temperature classification and instead print "OVERRIDE".
+*/
