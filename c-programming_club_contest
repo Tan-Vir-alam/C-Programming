@@ -808,3 +808,24 @@ Your app must classify the temperature into one of three conditions:
 However, there is a secret override code built into the app. If the user inputs this secret code, the 
 app should ignore the temperature classification and instead print "OVERRIDE".
 */
+#include<stdio.h>
+int main(){
+    int tem,num;
+    scanf("%d %d",&tem,&num);
+    if(num==1234){
+        printf("OVERRIDE\n");
+    }
+    else{
+        if(tem>30){
+            printf("Hot\n");
+        }
+        else if(tem<20){
+            printf("\n");
+        }
+        else{
+            printf("Normal\n");
+        }
+    }
+return 0;
+}
+
