@@ -839,3 +839,29 @@ greater than 10.
 The winner of the show is the response with the highest quality among those that are at most ten words long. 
 Which monkey wins?
 */
+#include<stdio.h>
+int main(){
+   int a1,x1,a2,x2,a3,x3;
+   scanf("%d %d %d %d %d %d",&a1,&x1,&a2,&x2,&a3,&x3);
+   if(a2>10){
+    if(x1>x3){
+        printf("First Monkey\n");
+    }
+    else{
+        printf("Third Monkey\n");
+    }
+   }
+   else{
+    if(x1>x2 && x1>x3){
+        printf("First Monkey\n");
+    }
+    else if(x2>x1 && x2>x3){
+        printf("Second Monkey\n");
+    }
+    else{
+        printf("Third Monkey\n");
+    }
+   }
+return 0;
+}
+
