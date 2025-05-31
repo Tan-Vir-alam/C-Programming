@@ -538,4 +538,7 @@ int main(){
 return 0;
 }
 
-
+/*Problem No - Name: 1070 - Six Odd Numbers.
+Problem: Read an integer value X and print the 6 consecutive odd numbers from X, a value
+per line, including X if it is the case.
+*/
