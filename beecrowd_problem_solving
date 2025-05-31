@@ -542,3 +542,26 @@ return 0;
 Problem: Read an integer value X and print the 6 consecutive odd numbers from X, a value
 per line, including X if it is the case.
 */
+#include<stdio.h>
+int main(){
+    int n;
+    int i=1;
+    scanf("%d",&n);
+    if(n%2==0){
+        while(i<=6){
+                n++;
+            printf("%d\n",n);
+        n++;
+        i++;
+        }
+    }
+    else{
+        while(i<=6){
+            printf("%d\n",n);
+            n+=2;
+            i++;
+        }
+    }
+return 0;
+}
+
