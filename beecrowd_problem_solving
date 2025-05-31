@@ -565,3 +565,7 @@ int main(){
 return 0;
 }
 
+/*Problem No - Name: 1073 - Even Square.
+Problem: Read an integer N. Print the square of each one of the even values from 1 to N
+including N if it is the case.
+*/
