@@ -956,3 +956,17 @@ Input: 5
 Output: 
     a b c d e
 */
+#include<stdio.h>
+int main(){
+    char a='a';
+    int n;
+    int i=1;
+    scanf("%d",&n);
+    while(i<=n){
+        printf("%c ",a);
+        i++;
+        a++;
+    }
+return 0;
+}
+
