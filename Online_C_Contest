@@ -977,3 +977,16 @@ to extend this pattern to length N. No further description of the rule is provid
 it from the initial fragment shown below.
     1 3 5 7 9 11 13
 */
+#include<stdio.h>
+int main(){
+     int i=1,n,count=1;
+
+     scanf("%d",&n);
+     while(count<=n){
+        printf("%d ",i);
+        i+=2;
+        count++;
+     }
+
+return 0;
+}
