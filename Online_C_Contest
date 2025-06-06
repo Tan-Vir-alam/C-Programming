@@ -1022,3 +1022,16 @@ it from the initial fragment shown below.
 Input: 6
 Output: 1 4 9 16 25 36
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int i=1,n;
+    scanf("%d",&n);
+    while(i<=n){
+        int ans = pow(i, 2);
+        printf("%d ",ans);
+        i++;
+    }
+return 0;
+}
+
