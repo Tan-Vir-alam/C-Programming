@@ -1103,3 +1103,18 @@ it from the initial fragment shown below.
 INPUT: 8
 OUTPUT: A B C D E F G H
 */
+#include<stdio.h>
+int main(){
+    char a='A';
+    int n;
+    int i=1;
+    scanf("%d",&n);
+    while(i<=n){
+        printf("%c ",a);
+        i++;
+        a++;
+    }
+return 0;
+}
+
+
