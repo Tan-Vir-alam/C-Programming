@@ -1096,3 +1096,10 @@ return 0;
 }
 
 
+/*Problem Name: Series-10
+Problem: You have discovered a cryptic “pattern” defined only by its first few terms. Your task is 
+to extend this pattern to length N. No further description of the rule is provided—you must deduce 
+it from the initial fragment shown below.
+INPUT: 8
+OUTPUT: A B C D E F G H
+*/
