@@ -1184,3 +1184,12 @@ int main(){
 return 0;
 }
 
+
+/*Problem Name: Series-14
+Problem: You have discovered a cryptic “pattern” defined only by its first few terms. Your task is 
+to extend this pattern to length N. No further description of the rule is provided—you must deduce 
+it from the initial fragment shown below.
+1 8 27 64 125 216 343 512
+Input: 7
+Output: 1 8 27 64 125 216 343
+*/
