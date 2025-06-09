@@ -1193,3 +1193,17 @@ it from the initial fragment shown below.
 Input: 7
 Output: 1 8 27 64 125 216 343
 */
+#include<math.h>
+#include<stdio.h>
+int main(){
+    int i=1,n;
+    scanf("%d",&n);
+    while(i<=n){
+        int result = pow(i, 3);
+        printf("%d ",result);
+        i++;
+    }
+
+return 0;
+}
+
