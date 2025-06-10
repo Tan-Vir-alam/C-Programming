@@ -1332,3 +1332,18 @@ the initial fragment shown below.
 Input: 9
 Output: 1 + 4 + 9 + 16 + 25 + 36 + 49 + 64 + 81
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int i=1,n,result=1;
+    scanf("%d",&n);
+    while(i<n){
+        result = i*i;
+        printf("%d + ",result);
+        i++;
+    }
+    printf("%d",i*i);
+return 0;
+}
+
+
