@@ -1372,3 +1372,12 @@ return 0;
 }
 
 
+
+/*Problem Name: Series-22
+Problem: You have discovered a cryptic “pattern” defined only by its first few terms. Your task is 
+to extend this pattern to length N. No further description of the rule is provided—you must deduce 
+it from the initial fragment shown below.
+1 + 4 + 27 + 256 + 3125 + 46656
+Input: 4
+Output: 1 + 4 + 27 + 256
+*/
