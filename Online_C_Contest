@@ -1420,3 +1420,12 @@ return 0;
 }
 
 
+
+/*Problem Name: Welcome to Loop
+Problem: Take an input N and print the word "TCPC" exactly N times on separate lines.
+Just print "TCPC" N times.
+Input: 3
+Output: "TCPC"
+        "TCPC"
+        "TCPC"
+*/
