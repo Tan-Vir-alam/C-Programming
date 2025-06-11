@@ -1381,3 +1381,19 @@ it from the initial fragment shown below.
 Input: 4
 Output: 1 + 4 + 27 + 256
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int i=1,pw=1,result=1,n;
+    scanf("%d",&n);
+    while(i<n){
+        printf("%d + ",result);
+        pw++;
+        i++;
+        result= pow(i, pw);
+    }
+    printf("%d",result);
+return 0;
+}
+
+
