@@ -1473,3 +1473,19 @@ You are the Royal Scribe. Your job is to take a list of N letters and write them
 received, 5 letters per line — no more, no less. The letters must appear in the original order, 
 neatly spaced.
 */
+#include<stdio.h>
+int main(){
+    int n,i=1;
+    char a='A';
+    scanf("%d",&n);
+    while(i<=n){
+        printf("%c ",a);
+        if(i%5==0){
+            printf("\n");
+        }
+        a++;
+        i++;
+    }
+return 0;
+}
+
