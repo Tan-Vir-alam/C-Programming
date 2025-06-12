@@ -1441,3 +1441,9 @@ return 0;
 }
 
 
+/*Problem Name: Even Odd Clash
+Problem: Zihan is learning programming and just discovered something. He wants to solve a 
+simple problem: identifying Even and Odd numbers.
+Input Format: The first line contains an integer T — the number of test case.
+The next T lines contain one integer N each.
+*/
