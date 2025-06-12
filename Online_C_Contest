@@ -1447,3 +1447,21 @@ simple problem: identifying Even and Odd numbers.
 Input Format: The first line contains an integer T — the number of test case.
 The next T lines contain one integer N each.
 */
+#include<stdio.h>
+int main(){
+    int i=1,n,num;
+    scanf("%d",&n);
+    while(i<=n){
+        scanf("%d",&num);
+        if(num%2==0) {
+            printf("Even\n");
+        }
+        else{
+            printf("Odd\n");
+        }
+        i++;
+    }
+return 0;
+}
+
+
