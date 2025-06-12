@@ -1465,3 +1465,11 @@ return 0;
 }
 
 
+/*Problem Name: Print in Groups-1
+Problem: In the Kingdom of Letters, messengers carry important messages made of capital letters.
+But the rule of the kingdom is simple: a messenger may only carry 5 letters per line on a scroll. 
+If there are fewer than 5 letters left, the last line carries just those.
+You are the Royal Scribe. Your job is to take a list of N letters and write them out, exactly as 
+received, 5 letters per line — no more, no less. The letters must appear in the original order, 
+neatly spaced.
+*/
