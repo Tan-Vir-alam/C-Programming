@@ -1583,3 +1583,28 @@ But beware! The magic only works if you exclude the start and end numbers themse
 is to carefully examine all the numbers in between and uncover the sum of all these digits combined.
 Only when you reveal this hidden treasure, will the gate open and the chest be yours.
 */
+#include<stdio.h>
+int main(){
+    int i=1,a,b;
+    long long int sum=0;
+        scanf("%d %d",&a,&b);
+        if(a>b){
+        b=b+1;
+        while(a>b){
+            sum=sum+b;
+            b++;
+        }
+        }
+        else{
+        a=a+1;
+        while(a<b){
+            sum=sum+a;
+            a++;
+        }
+        }
+        printf("%lld\n",sum);
+
+return 0;
+}
+
+
