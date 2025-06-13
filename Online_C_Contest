@@ -1554,3 +1554,9 @@ return 0;
 }
 
 
+/*Problem Name: Sum of Numbers-2
+Problem: In a small village, there lives a curious kid named Rafi. One day, Rafi found a magical 
+notebook. Whatever numbers he writes in the notebook get added automatically!
+Help Rafi by writing a program that reads N numbers and calculates their total sum, just like his 
+magical notebook does!
+*/
