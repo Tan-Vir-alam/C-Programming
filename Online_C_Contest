@@ -1533,3 +1533,24 @@ that calculates this sum efficiently.
 Your task is to help Ram by writing a program that reads an integer N and computes the 
 sum of all integers from 1 to N inclusive. The program should output the final sum. 
 */
+#include<stdio.h>
+int main(){
+    int i=1,j=1,sum=0,n,b;
+    scanf("%d",&n);
+    while(i<=n){
+        scanf("%d",&b);
+        sum=0;
+        j=1;
+
+        while(j<=b){
+            sum=sum+j;
+            j++;
+        }
+        i++;
+        printf("%d\n",sum);
+    }
+
+return 0;
+}
+
+
