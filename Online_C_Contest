@@ -1560,3 +1560,18 @@ notebook. Whatever numbers he writes in the notebook get added automatically!
 Help Rafi by writing a program that reads N numbers and calculates their total sum, just like his 
 magical notebook does!
 */
+#include<stdio.h>
+int main(){
+    int i=1,j=1,sum=0,n,num;
+    scanf("%d",&n);
+    while(i<=n){
+        scanf("%d",&num);
+        sum=sum+num;
+        i++;
+    }
+    printf("%d\n",sum);
+
+return 0;
+}
+
+
