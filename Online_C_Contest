@@ -1575,3 +1575,11 @@ return 0;
 }
 
 
+/*Problem Name: Sum of Numbers-3
+Problem: In a distant land, there lies a guarded treasure chest locked behind an ancient number 
+gate. The gatekeeper hands you two magical numbers, start and end. To unlock the chest, you must 
+prove your skill by discovering the secret hidden between these numbers.
+But beware! The magic only works if you exclude the start and end numbers themselves. Your task 
+is to carefully examine all the numbers in between and uncover the sum of all these digits combined.
+Only when you reveal this hidden treasure, will the gate open and the chest be yours.
+*/
