@@ -1525,3 +1525,11 @@ return 0;
 
 
 
+/*Problem Name: Sum of Numbers-1
+Problem: Ram is fascinated by numbers and enjoys solving simple mathematical problems. 
+One day, he challenged himself to find the sum of all natural numbers starting from 1 
+up to a given number N. Since Ram is learning programming, he wants to write a program 
+that calculates this sum efficiently.
+Your task is to help Ram by writing a program that reads an integer N and computes the 
+sum of all integers from 1 to N inclusive. The program should output the final sum. 
+*/
