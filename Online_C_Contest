@@ -1669,3 +1669,45 @@ Sample Output:
     Percentual de ratos: 33.04 %
     Percentual de sapos: 43.48 %
 */
+#include<stdio.h>
+int main()
+{
+    int N,i=1,animal,total=0,C=0,R=0,S=0;
+    char x;
+    scanf("%d",&N);
+    while(i<=N)
+    {
+        scanf("%d %c",&animal,&x);
+        if(x=='C'){
+            C=C+animal;
+            total=total+animal;
+        }
+        else if(x=='R'){
+            R=R+animal;
+            total=total+animal;
+        }
+        else if(x=='S'){
+            S=S+animal;
+            total=total+animal;
+        }
+
+        i++;
+
+    }
+    double cp = (C*(1.0)/total)*100;
+    double rp = (R*(1.0)/total)*100;
+    double sp = (S*(1.0)/total)*100;
+
+    printf("Total: %d cobaias\n",total);
+    printf("Total de coelhos: %d\n",C);
+    printf("Total de ratos: %d\n",R);
+    printf("Total de sapos: %d\n",S);
+    printf("Percentual de coelhos: %.2lf %%\n",cp);
+    printf("Percentual de ratos: %.2lf %%\n",rp);
+    printf("Percentual de sapos: %.2lf %%\n",sp);
+
+    return 0;
+}
+
+
+
