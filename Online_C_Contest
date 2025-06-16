@@ -1740,3 +1740,26 @@ return 0;
 Problem: Take 2 inputs X and Y.
 Print all the numbers in Y to X and find their sum.
 */
+#include<stdio.h>
+int main(){
+    int a,b;
+    long long int sum=0;
+    scanf("%d %d",&a,&b);
+    if(a>b){
+        while(b<=a){
+            printf("%d ",b);
+            sum=sum+b;
+            b++;
+        }
+    }
+    else{
+        while(a<=b){
+            printf("%d ",b);
+            sum=sum+b;
+            b--;
+        }
+    }
+    printf("SuM=%lld\n",sum);
+return 0;
+}
+
