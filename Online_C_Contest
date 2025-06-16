@@ -1811,3 +1811,10 @@ return 0;
 }
 
 
+
+/*Problem Name: Negative + Positive
+Problem: Zihan is learning programming and just discovered something. He wants to solve 
+a simple problem: identifying Positive and Negative numbers.
+Input Format: The first line contains an integer T — the number of test case.
+The next T lines contain one integer N each.
+*/
