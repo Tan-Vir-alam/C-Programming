@@ -1795,3 +1795,6 @@ int main(){
 }
 
 
+/*Problem Name: Who is The First
+Problem: You are given a positive integer N. Write a program to find and output the first digit of N.
+*/
