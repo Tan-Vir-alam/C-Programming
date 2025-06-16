@@ -1818,3 +1818,21 @@ a simple problem: identifying Positive and Negative numbers.
 Input Format: The first line contains an integer T — the number of test case.
 The next T lines contain one integer N each.
 */
+#include<stdio.h>
+int main(){
+    int n,num,i=1;
+    scanf("%d",&n);
+    while(i<=n){
+        scanf("%d",&num);
+        if(num>0){
+            printf("Positive\n");
+        }
+        else{
+            printf("Negative\n");
+        }
+        i++;
+    }
+return 0;
+}
+
+
