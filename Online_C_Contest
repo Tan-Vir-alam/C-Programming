@@ -1763,3 +1763,11 @@ int main(){
 return 0;
 }
 
+
+/*Problem name: One Prime
+Problem: Given a number X. Determine if the number is prime or not.
+Note: A prime number is a number that is greater than 1 and has only two factors 
+which are 1 and itself.
+In other words : prime number divisible only by 1 and itself.
+Be careful that 1 is not prime.
+*/
