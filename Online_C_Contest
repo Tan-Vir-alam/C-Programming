@@ -1736,4 +1736,7 @@ return 0;
 
 
 
-
+/*Problem Name: Sequence of Numbers and Sum
+Problem: Take 2 inputs X and Y.
+Print all the numbers in Y to X and find their sum.
+*/
