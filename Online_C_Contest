@@ -1771,3 +1771,27 @@ which are 1 and itself.
 In other words : prime number divisible only by 1 and itself.
 Be careful that 1 is not prime.
 */
+#include<stdio.h>
+int main(){
+
+    int x,i=2,count=0;
+    scanf("%d",&x);
+
+    while(i<x){
+        if(x%i==0){
+            count++;
+        }
+        i++;
+    }
+    if(x==1){
+        printf("NO\n");}
+    else if(count>0){
+        printf("NO\n");
+    }
+    else{
+        printf("YES\n");
+    }
+    return 0;
+}
+
+
