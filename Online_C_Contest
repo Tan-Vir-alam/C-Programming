@@ -1836,3 +1836,14 @@ return 0;
 }
 
 
+/*Problem Name ASCII Identification
+problem: ASCII  abbreviated from American Standard Code for Information Interchange, 
+is a character encoding standard for electronic communication. ASCII codes represent 
+text in computers, telecommunications equipment, and other devices. Most modern 
+character-encoding schemes are based on ASCII, although they support many additional 
+characters. ASCII table can be categorized as,
+
+A Digit(0 to 9) can have decimal values from 48 to 57.
+An Alphabet(a to z and A to Z) can have decimal values from 65 to 90 or 97 to 122.
+And the others areSpecial Character.
+*/
