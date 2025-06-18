@@ -1906,3 +1906,11 @@ return 0;
 }
 
 
+
+/*Problem name: The Multiplication Table
+Problem: Shuvro, an avid learner, loves exploring the magical world of numbers. One day, 
+he discovered a mystical artifact that granted him the ability to summon the Multiplication 
+Tale for any chosen number.
+Write a C program to help Shuvro unlock the secrets of this artifact. The program should 
+take an integer N as input and generate the Multiplication Tale for N from 1 to 10.
+*/
