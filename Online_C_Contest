@@ -1874,3 +1874,14 @@ return 0;
 }
 
 
+
+/*Problem Name: Relationship Verdit
+Problem: A relational operator checks the relationship between two operands. In 
+C programming, there are six relational operators. they are, ==, !=, <, >, <=, and >=.
+
+Mr. KnowItAll is learning C programming in recent days. Currently, he is learning about 
+relational operands. But he is confused about determining the relation between operators. 
+As a fellow learner, your task is to help him determine the relationship between two 
+operands. In this task, you are given two integer values a,b and you have to guess the 
+relation between them.
+*/
