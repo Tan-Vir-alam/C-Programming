@@ -1847,3 +1847,30 @@ A Digit(0 to 9) can have decimal values from 48 to 57.
 An Alphabet(a to z and A to Z) can have decimal values from 65 to 90 or 97 to 122.
 And the others areSpecial Character.
 */
+#include<stdio.h>
+int main(){
+    int n,i=1;
+    char ascii;
+    scanf("%d",&n);
+    while(i<=n){
+    scanf(" %c",&ascii);
+    int a = ascii;
+
+    if(a>=48 && a<=57){
+        printf("Digit\n");
+    }
+    else if(a>=65 && a<=90){
+            printf("Alphabet\n");}
+
+    else if(a>=97 && a<=122){
+        printf("Alphabet\n");
+    }
+    else{
+        printf("Special Character\n");
+    }
+    i++;
+    }
+return 0;
+}
+
+
