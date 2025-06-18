@@ -1914,3 +1914,16 @@ Tale for any chosen number.
 Write a C program to help Shuvro unlock the secrets of this artifact. The program should 
 take an integer N as input and generate the Multiplication Tale for N from 1 to 10.
 */
+#include<stdio.h>
+int main(){
+    int num,i=1;
+    scanf("%d",&num);
+    while(i<=10){
+            long long int result = i*num;
+        printf("%d * %d = %d\n",num,i,result);
+    i++;
+    }
+return 0;
+}
+
+
