@@ -2038,3 +2038,32 @@ profound knowledge of arithmetic, sensed the town's unease and called upon a bra
 embark on a quest. The task was simple yet crucial – to find the number of Bad Numbers within a 
 given range [l, r].
 */
+#include<stdio.h>
+int main(){
+    int a,b,total=0,i=1;
+    scanf("%d %d",&a,&b);
+    if(a>b){
+            i=b;
+        while(i<=a){
+            if(i%2==0 && i%4==0){
+                total++;
+
+            }
+            i++;
+        }
+    }
+    else{
+        i=a;
+        while(i<=b){
+            if(i%2==0 && i%4==0){
+                total++;
+
+            }
+            i++;
+        }
+    }
+    printf("%d",total);
+return 0;
+}
+
+
