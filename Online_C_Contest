@@ -2008,3 +2008,23 @@ Problem: In this problem, you are typically given a sequence of numbers and the 
 sum of even numbers and the sum of odd numbers separately within that sequence. The goal is to 
 compute and return both sums as the output.
 */
+#include<stdio.h>
+int main(){
+    int num,digit,odd=0,even=0;
+    scanf("%d",&num);
+    while(num>0){
+        digit= num%10;
+        if(digit%2!=0){
+            odd=odd+digit;
+        }
+        else{
+            even=even+digit;
+        }
+        num=num/10;
+    }
+    printf("SUM OF ODD NUMBERS : %d\n",odd);
+    printf("SUM OF EVEN NUMBERS : %d",even);
+return 0;
+}
+
+
