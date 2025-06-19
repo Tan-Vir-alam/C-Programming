@@ -2003,3 +2003,8 @@ return 0;
 
 
 
+/*Problem name: Separate the Sums
+Problem: In this problem, you are typically given a sequence of numbers and the task is to find the 
+sum of even numbers and the sum of odd numbers separately within that sequence. The goal is to 
+compute and return both sums as the output.
+*/
