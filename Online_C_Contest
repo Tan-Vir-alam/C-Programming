@@ -1976,3 +1976,30 @@ Factorial, in mathematics, is the product of all positive integers less than or 
 positive integer and denoted by that integer and an exclamation point. For Example, the factorial 
 of 6 is 6 * 5 * 4 * 3 * 2 * 1 which is 720.
 */
+#include<stdio.h>
+int main(){
+    int x;
+    long long int fact=1;
+    scanf("%d",&x);
+     int i=1;
+    if(x==0){
+        printf("The Factorial of 0 is : 0 = 1");
+    }
+
+
+   if(x>0){
+            printf("The Factorial of %d is : ",x);
+
+    while(i<x){
+        fact = fact*i;
+        printf("%d*",i);
+        i++;
+    }
+    printf("%d",i);
+    fact=fact*i;
+    printf(" = %lld\n",fact);}
+return 0;
+}
+
+
+
