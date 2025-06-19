@@ -2028,3 +2028,13 @@ return 0;
 }
 
 
+/*Problem name: Bad Number
+Problem: In the mystical land of numbers, where digits dance and numbers roam, there existed a 
+curious town named Numeria. In Numeria, numbers were not just symbols but held magical properties 
+and unique qualities.
+One day, the town was shrouded in a mysterious aura as rumors spread of the arrival of the Bad 
+Numbers – they were divisible by both 2 and 4. The wise old sage of Numeria, known for his 
+profound knowledge of arithmetic, sensed the town's unease and called upon a brave adventurer to 
+embark on a quest. The task was simple yet crucial – to find the number of Bad Numbers within a 
+given range [l, r].
+*/
