@@ -1927,3 +1927,8 @@ return 0;
 }
 
 
+/*Problem Name: The Mirror Maze
+Problem: You are given two integers, start and end. Your task is to write a program that prints 
+all the integers from start to end in increasing order, followed by all the integers from last 
+digit to start in decreasing order.
+*/
