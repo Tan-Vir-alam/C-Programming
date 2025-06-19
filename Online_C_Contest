@@ -1967,3 +1967,12 @@ return 0;
 }
 
 
+
+/*Problem name: The magic Factorial Machine
+Problem: Once upon a time in the small village of Dhaka, there lived a curious young boy named 
+Srabon. Srabon was fascinated by numbers. One day, he learned about factorial while reading a 
+math book out of curiosity.
+Factorial, in mathematics, is the product of all positive integers less than or equal to a given 
+positive integer and denoted by that integer and an exclamation point. For Example, the factorial 
+of 6 is 6 * 5 * 4 * 3 * 2 * 1 which is 720.
+*/
