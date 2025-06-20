@@ -2118,3 +2118,16 @@ int main(){
 }
 
 
+
+/*Problem Name: Defective Number
+Problem: Your friend Arif works at a factory that manufactures electronic components.
+Each component produced in the factory has a unique serial number printed on it. Now, 
+to ensure product quality, the factory follows a peculiar rule:
+If a component's serial number contains the digit 6 or 9, it is considered defective.
+Otherwise, the component is labeled as a good product.
+Arif has been tasked with checking each component by examining its serial number and 
+determining whether it's defective or not. However, checking hundreds of serial numbers 
+manually every day is exhausting, and Arif could really use your help.
+He asks you to write a simple program that takes a serial number as input and tells 
+whether it is a Defective Number or a Good Number.
+*/
