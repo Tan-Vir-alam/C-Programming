@@ -2103,3 +2103,18 @@ Problem: Alex loves playing with numbers. Today, he found a large number written
 and became curious: what are the first and last digits of that number? Can you help Alex 
 write a program to find the first and last digits of a given number?
 */
+#include<stdio.h>
+int main(){
+    int num,first,last;
+    scanf("%d",&num);
+    last=num%10;
+    while(num>0){
+        first=num%10;
+        num=num/10;
+    }
+    printf("first = %d \n",first);
+    printf("last = %d\n",last);
+
+}
+
+
