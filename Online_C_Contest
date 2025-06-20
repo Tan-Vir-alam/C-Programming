@@ -2098,3 +2098,8 @@ return 0;
 }
 
 
+/*Problem Name: First and Last
+Problem: Alex loves playing with numbers. Today, he found a large number written on a board 
+and became curious: what are the first and last digits of that number? Can you help Alex 
+write a program to find the first and last digits of a given number?
+*/
