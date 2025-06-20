@@ -2067,3 +2067,10 @@ return 0;
 }
 
 
+/*Problem Name: Primes from 1 to n
+Problem: Given a number N . Print all prime numbers between 1 and N inclusive.
+A prime number is a number that is greater than 1 and has only two factors which are 1 and itself.
+In other words : prime number divisible only by 1 and itself.
+Be careful that 1 is not prime .
+If the input is 1 then the output will be "Not Prime"
+*/
