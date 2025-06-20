@@ -2074,3 +2074,27 @@ In other words : prime number divisible only by 1 and itself.
 Be careful that 1 is not prime .
 If the input is 1 then the output will be "Not Prime"
 */
+#include<stdio.h>
+int main(){
+   int i=2,prime_num=2,num,count=0;
+   scanf("%d",&num);
+   if(num==1){
+    printf("Not Prime\n");
+   }
+   while(prime_num<=num){
+        i=2;
+         count=0;
+         while(i<prime_num){
+        if(prime_num%i==0){
+            count++;
+        }
+        i++;
+    }
+    if(count==0){
+        printf("%d ",prime_num);}
+    prime_num++;
+   }
+return 0;
+}
+
+
