@@ -2131,3 +2131,25 @@ manually every day is exhausting, and Arif could really use your help.
 He asks you to write a simple program that takes a serial number as input and tells 
 whether it is a Defective Number or a Good Number.
 */
+#include<stdio.h>
+int main(){
+    int num,digit,count=0;
+    scanf("%d",&num);
+    while(num>0){
+        digit=num%10;
+        num=num/10;
+        if(digit==6 || digit==9){
+            count++;
+        }
+
+    }
+    if(count>0){
+        printf("Defective Number\n");
+    }
+    else{
+        printf("Good Number\n");
+    }
+return 0;
+}
+
+
