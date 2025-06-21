@@ -2177,3 +2177,23 @@ return 0;
 /*Problem Name: Fibonacci Generation
 Problem: Make a Fibonacci series.
 */
+#include<stdio.h>
+int main(){
+    int i=0,first=0,sec=1,fib=0,n;
+    scanf("%d",&n);
+    while(i<n){
+       if(i<=1){
+            fib=i;
+        printf("%d ",fib);
+       }
+       else{
+            fib=first+sec;
+        printf("%d ",fib);
+       first=sec;
+       sec=fib;
+       }
+        i++;
+    }
+return 0;
+}
+
