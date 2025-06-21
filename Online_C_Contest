@@ -2159,3 +2159,17 @@ one L, X occurrences of o, one n, and one g arranged in this order.
 You are given a positive integer N. Print the Dragon String of level N. Note that uppercase and 
 lowercase letters are distinguished.
 */
+#include<stdio.h>
+int main(){
+    int x,i=1;
+    scanf("%d",&x);
+    printf("L");
+    while(i<=x){
+        printf("o");
+        i++;
+    }
+    printf("ng");
+return 0;
+}
+
+
