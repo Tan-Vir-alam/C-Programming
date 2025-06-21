@@ -2153,3 +2153,9 @@ return 0;
 }
 
 
+/*Problem Name: Long Loong
+Problem: For a positive integer X, the Dragon String of level X is a string of length (X+3) formed by
+one L, X occurrences of o, one n, and one g arranged in this order.
+You are given a positive integer N. Print the Dragon String of level N. Note that uppercase and 
+lowercase letters are distinguished.
+*/
