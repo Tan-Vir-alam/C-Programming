@@ -2197,3 +2197,16 @@ int main(){
 return 0;
 }
 
+
+
+/*Problem Name: Glass and Mug
+Problem: Takahashi has a glass with a capacity of G milliliters and a mug with a capacity of M 
+milliliters. Here, G < M. Initially, both the glass and the mug are empty. After performing the 
+following operation K times, determine how many milliliters of water are in the glass and the mug, 
+respectively.
+When the glass is filled with water, that is, the glass contains exactly G milliliters of water, 
+discard all the water from the glass.
+Otherwise, if the mug is empty, fill the mug with water.
+Otherwise, transfer water from the mug to the glass until the mug is empty or the glass is filled 
+with water.
+*/
