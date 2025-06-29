@@ -2253,4 +2253,17 @@ return 0;
 }
 
 
+//Marathon 2-1.
 
+/*Problem Name: Find Multiple
+Problem: In the cyberpunk city of Neon Hollow, a young hacker named Eron spends his nights 
+cracking corporate firewalls. One night, while probing into the dark depths of a 
+mega-corp’s database, he stumbles upon a strange encryption pattern embedded deep within 
+the system logs.
+Each pattern is a sequence of numbers between two bounds — A and B, inclusive. Eron learns 
+that a specific encryption key, C, is used to validate entries. His mission? For each 
+encrypted log, determine any number within the range [A, B] that is a multiple of C.
+If such a number exists, it means the log is accessible. If not, the data is 
+unreachable and must be skipped.
+Can you help Eron decrypt these logs and pull out the right numbers?
+*/
