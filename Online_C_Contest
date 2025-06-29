@@ -2302,3 +2302,32 @@ return 0;
 Problem: Given two integers a and b (where 1 ≤ a ≤ b ≤ 1000), and another integer k (where 1 ≤ k ≤ 10),
 find the sum of all numbers between a and b (inclusive) that are multiples of k.
 */
+#include<stdio.h>
+int main(){
+
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    int sum=0;
+
+        if(a<b){
+            for(int i=a; i<=b; i++){
+               a = i%c;
+               if(a==0){
+                sum=sum+i;
+               }
+            }
+        }
+        else{
+            for(int i=b; i<=a; i++){
+                b=i%c;
+                if(b==0){
+                sum=sum+i;
+                }
+            }
+        }
+    printf("%d\n",sum);
+return 0;
+}
+
+
+
