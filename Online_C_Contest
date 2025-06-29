@@ -2331,3 +2331,7 @@ return 0;
 
 
 
+/*Problem Name: Count Even Digits
+Problem: You are given T test cases. For each test case, you are given a single integer N. 
+Your task is to count how many digits in N are even (i.e., divisible by 2).
+*/
