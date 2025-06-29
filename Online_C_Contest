@@ -2370,3 +2370,26 @@ The shopkeeper will give you T test cases.
 For each test case, you’ll get two numbers: N (the number to check) and K (the magic digit to count).
 Your task is to find how many times K appears in N.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+            int num,div,count=0;
+        scanf("%d %d",&num,&div);
+
+        while(num){
+            int temp=num%10;
+            if(temp==div){
+                count++;
+            }
+            num=num/10;
+        }
+        printf("%d\n",count);
+    }
+return 0;
+}
+
+
+
