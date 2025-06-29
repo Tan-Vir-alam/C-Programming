@@ -2362,3 +2362,11 @@ return 0;
 
 
 
+/*Problem Name: The Magical Potion Shop
+Problem: You are an apprentice in a Magical Potion Shop, where the shopkeeper gives you a 
+series of tasks to prove your worth. Each task involves counting how many times a magic 
+number K appears in a given number N.
+The shopkeeper will give you T test cases.
+For each test case, you’ll get two numbers: N (the number to check) and K (the magic digit to count).
+Your task is to find how many times K appears in N.
+*/
