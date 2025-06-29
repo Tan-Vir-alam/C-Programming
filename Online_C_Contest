@@ -2335,3 +2335,30 @@ return 0;
 Problem: You are given T test cases. For each test case, you are given a single integer N. 
 Your task is to count how many digits in N are even (i.e., divisible by 2).
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int num,count=0;
+        scanf("%d",&num);
+        if(num==0){
+            count++;
+        }
+
+        while(num){
+            int temp = num%10;
+            num=num/10;
+            if(temp%2 == 0){
+                count++;
+            }
+        }
+        printf("%d\n",count);
+    }
+
+return 0;
+}
+
+
+
