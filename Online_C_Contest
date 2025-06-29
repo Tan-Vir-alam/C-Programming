@@ -2298,3 +2298,7 @@ return 0;
 
 
 
+/*Problem Name: Sum of Multiples in a Range.
+Problem: Given two integers a and b (where 1 ≤ a ≤ b ≤ 1000), and another integer k (where 1 ≤ k ≤ 10),
+find the sum of all numbers between a and b (inclusive) that are multiples of k.
+*/
