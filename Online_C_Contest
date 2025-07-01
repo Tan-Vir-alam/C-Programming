@@ -2430,3 +2430,30 @@ return 0;
 
 
 
+/*Problem Name: Count Digits Greater Than or Equal to X
+Problem: You are given T test cases. For each test case, you are given two integers: 
+a positive number N and a digit threshold X (0 ≤ X ≤ 9). Your task is to count how 
+many digits in N are greater than or equal to X.
+*/
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        long long int num,count=0,x;
+        scanf("%lld %lld",&num,&x);
+
+        while(num){
+            int temp=num%10;
+            if(temp==x || temp>x){
+                count++;
+            }
+            num=num/10;
+        }
+        printf("%lld\n",count);
+    }
+return 0;
+}
+
+
