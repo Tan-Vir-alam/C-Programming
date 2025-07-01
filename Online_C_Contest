@@ -2457,3 +2457,15 @@ return 0;
 }
 
 
+
+/*Problem Name: Palinfrome Temple
+Problem: Deep in the heart of the Amazon rainforest lies the legendary Temple of the Palindromes, 
+built by an ancient civilization obsessed with symmetrical numbers. As an intrepid archaeologist, 
+you've discovered the temple's entrance, but a massive stone door blocks your path.
+The door is inscribed with a mysterious riddle: "Only those who understand the language of 
+palindromes may enter. Prove your wisdom by solving our challenge."
+The Challenge: The temple priests will give you multiple test cases. For each case, you must:
+Take two numbers representing a range (L to R)
+Count how many numbers in this range are palindromes
+Speak your answer to open the door
+*/
