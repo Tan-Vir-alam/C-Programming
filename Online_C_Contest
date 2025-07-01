@@ -2498,3 +2498,10 @@ return 0;
 }
 
 
+
+/*Problem name: Frequency Table 1
+Problem: You are given t numbers. Count how many times each digit 0–9 appears in total.
+Input Format:
+First line: integer t
+Next t lines: each contains a number
+*/
