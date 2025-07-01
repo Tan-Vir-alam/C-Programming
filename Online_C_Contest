@@ -2469,3 +2469,32 @@ Take two numbers representing a range (L to R)
 Count how many numbers in this range are palindromes
 Speak your answer to open the door
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int L,R;
+        scanf("%d %d",&L,&R);
+        int count=0;
+        for(int i=L; i<=R; i++){
+                int rev=0;
+                int k=i;
+                L=i;
+            while(L){
+                int temp=L%10;
+                L=L/10;
+                rev=(rev*10)+temp;//0+11=110
+            }
+            if(rev==k){
+                count++;
+            }
+        }
+        printf("%d\n",count);
+
+    }
+return 0;
+}
+
+
