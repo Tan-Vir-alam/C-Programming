@@ -2603,3 +2603,7 @@ return 0;
 
 
 
+/*Problem Name: Count Common Multiples
+Problem: You are given two positive integers n and m (where 1 ≤ n, m ≤ 10). Write a C program 
+using nested loops to count how many numbers from 1 to 100 are divisible by both n and m.
+*/
