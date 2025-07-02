@@ -2630,3 +2630,23 @@ k for each test case, and finally print the total sum of all these individual re
 You only need to print the total sum at the end in the following format:
 **result = **TOTAL;
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    int sum=0;
+
+    while(t--){
+        int a,b;
+        scanf("%d %d",&a,&b);
+
+       for(int i=b; i<=a; i++){
+            if(i%b==0){
+                sum = sum+i;
+            }
+        }
+    }
+    printf("result = %d\n",sum);
+return 0;
+}
+
