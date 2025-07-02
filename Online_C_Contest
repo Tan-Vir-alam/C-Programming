@@ -2564,3 +2564,11 @@ return 0;
 
 
 
+/*Problem Name: Robot Battery Checker.
+Problem: You are the chief engineer at RoboCorp, and you've just received a shipment of T robot 
+units for testing. Each robot has a unique Battery ID Number (N) — a positive integer.
+Your job is to find out how many digits in the Battery ID are power-efficient. A digit is 
+considered power-efficient if it is even and non-zero (i.e., 2, 4, 6, 8 — but not 0).
+You must test T robots, one after another. For each robot's Battery ID, calculate how many digits 
+are power-efficient.
+*/
