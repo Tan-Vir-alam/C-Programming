@@ -2572,3 +2572,34 @@ considered power-efficient if it is even and non-zero (i.e., 2, 4, 6, 8 — but 
 You must test T robots, one after another. For each robot's Battery ID, calculate how many digits 
 are power-efficient.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    int i=1;
+
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        int count=0;
+
+        while(num){
+            int temp = num%10;
+            num = num/10;
+
+            if(temp==0){
+
+            }
+            else if(temp%2==0){
+                count++;
+            }
+        }
+
+        printf("Robot #%d: %d power-efficient digits\n",i,count);
+        i++;
+    }
+return 0;
+}
+
+
+
