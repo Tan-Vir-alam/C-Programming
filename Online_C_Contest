@@ -2623,3 +2623,10 @@ return 0;
 
 
 
+/*Problem Name: Total Sum of Multiples
+Problem: You are given multiple test cases. For each test case, you are given two integers n and k. 
+Your task is to calculate the sum of all numbers between 1 and n (inclusive) that are divisible by 
+k for each test case, and finally print the total sum of all these individual results.
+You only need to print the total sum at the end in the following format:
+**result = **TOTAL;
+*/
