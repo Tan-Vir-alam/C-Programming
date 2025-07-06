@@ -2743,3 +2743,27 @@ You are given an integer number n. Mikasa will subtract one from it k times. You
 the result after all k subtractions.
 It is guaranteed that the result will be positive integer number.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        long int num,k;
+        scanf("%ld %ld",&num,&k);
+
+        while(k--){
+            int temp = num%10;
+            if(temp==0){
+                num = num/10;
+            }
+            else{
+                num = num-1;
+            }
+        }
+        printf("%ld\n",num);
+    }
+return 0;
+}
+
+
