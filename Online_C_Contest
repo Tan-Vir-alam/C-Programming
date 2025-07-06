@@ -2660,3 +2660,22 @@ Ends with the fierce 'n' and 'g'
 You are given a positive integer N N. Print the Dragon String of level N N. Note that uppercase and 
 lowercase letters are distinguished.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int x;
+        scanf("%d",&x);
+        printf("L");
+        for(int i=1; i<=x; i++){
+            printf("o");
+        }
+        printf("ng\n");
+    }
+return 0;
+}
+
+
+
