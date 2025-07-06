@@ -2685,3 +2685,45 @@ For each number from end down to start (inclusive), check whether all digits of 
 individually divisible by divisor.
 Print the valid numbers in descending order for each test case. If no valid number exists, print -1.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    int i=1;
+
+    while(t--){
+        int a,b,div;
+        scanf("%d %d %d",&a,&b,&div);
+
+        printf("Case %d:\n",i);
+        i++;
+        int j=0;
+
+        for(int i=b; i>=a; i--){
+                b=i;
+               int count=0;
+               int count2=0;
+            while(b){
+                int temp = b%10;
+                b = b/10;
+                count++;
+                if(temp%div ==0){
+                    count2++;
+                }
+            }
+            if(count==count2){
+                    printf("%d\n",i);
+                    j++;
+                }
+        }
+        if(j==0){
+            printf("-1\n");
+        }
+
+    }
+return 0;
+}
+
+
+
+
