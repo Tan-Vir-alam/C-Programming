@@ -2679,3 +2679,9 @@ return 0;
 
 
 
+/*Problem Name: Digit Island
+Problem: You are given T test cases. Each test case contains three integers: start, end, and divisor.
+For each number from end down to start (inclusive), check whether all digits of the number are 
+individually divisible by divisor.
+Print the valid numbers in descending order for each test case. If no valid number exists, print -1.
+*/
