@@ -2652,3 +2652,11 @@ return 0;
 
 
 
+/*Problem Name: Dragon string;
+Problem: For a positive integer N, the Dragon String of level N — a mighty roar forged as follows:
+Begins with an 'L' (uppercase, as dragons don’t whisper)
+Roars with N lowercase 'o's
+Ends with the fierce 'n' and 'g'
+You are given a positive integer N N. Print the Dragon String of level N N. Note that uppercase and 
+lowercase letters are distinguished.
+*/
