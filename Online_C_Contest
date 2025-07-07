@@ -2794,3 +2794,10 @@ return 0;
 }
 
 
+/*Problem Name: Number Reduction
+Shinchan has an integer X with him. He can perform the following two types of 
+modifications to it, however many times he likes and in any order:
+If X>3, subtract 3 from X. If X is even, divide X by 2.
+Find the minimum possible value of X, shinchan can make after performing the 
+given operations several times.
+*/
