@@ -2837,3 +2837,7 @@ return 0;
 
 
 
+/*problem Name: Digit product (Excluding Zeros)
+problem: Given an integer T — the number of test cases — and then T integers, for each integer N, 
+calculate the product of its digits, excluding any zeros.
+*/
