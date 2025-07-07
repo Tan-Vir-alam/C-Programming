@@ -2841,3 +2841,26 @@ return 0;
 problem: Given an integer T — the number of test cases — and then T integers, for each integer N, 
 calculate the product of its digits, excluding any zeros.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        long long int product=1;
+
+        while(num){
+            int temp = num%10;
+            num = num/10;
+            if(temp!=0){
+                product = product*temp;
+            }
+        }
+        printf("%lld\n",product);
+    }
+return 0;
+}
+
+
