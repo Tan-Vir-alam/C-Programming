@@ -2771,3 +2771,26 @@ return 0;
 Given two integers a and b, where a ≤ b, find how many numbers in the range [a, b] 
 have the sum of the squares of their digits divisible by 5.
 */
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int count = 0;
+
+    for(int i=a; i<=b; i++){
+            a=i;
+            int sum = 0;
+        while(a){
+            int temp=a%10;
+            sum = sum + (temp*temp);
+            a=a/10;
+        }
+        if(sum%5==0){
+            count++;
+        }
+    }
+    printf("%d\n",count);
+return 0;
+}
+
+
