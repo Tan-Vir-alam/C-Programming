@@ -2864,3 +2864,12 @@ return 0;
 }
 
 
+/*Escape the Haunted House
+Problem Name: Ayesha is trapped in a haunted house! The only way to escape is by unlocking the 
+magic doors with passwords.
+But there's a problem Ayesha doesnt know math. Your task is to help Ayesha by finding all the 
+magic passwords that can help her escape.
+A password is a positive integer that is equal to the sum of its proper divisors (excluding itself).
+For example:
+28 is a password because 1 + 2 + 4 + 7 + 14 = 28. 8 is not a password because 1 + 2 + 4 = 7
+*/
