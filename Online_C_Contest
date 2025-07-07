@@ -2873,3 +2873,28 @@ A password is a positive integer that is equal to the sum of its proper divisors
 For example:
 28 is a password because 1 + 2 + 4 + 7 + 14 = 28. 8 is not a password because 1 + 2 + 4 = 7
 */
+#include<stdio.h>
+int main(){
+    int num;
+    scanf("%d",&num);
+
+    int count = 0;
+    for(int i=1; i<=num; i++){
+        int n=0;
+        for(int j=1; j<i; j++){
+            if(i%j==0){
+                n = n+j;
+            }
+        }
+        if(n==i){
+            printf("%d ",i);
+            count++;
+        }
+    }
+    if(count==0){
+        printf("DIE\n");
+    }
+  return 0;
+}
+
+
