@@ -2801,3 +2801,39 @@ If X>3, subtract 3 from X. If X is even, divide X by 2.
 Find the minimum possible value of X, shinchan can make after performing the 
 given operations several times.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        while(num){
+            if(num<=3){
+                if(num%2==0){
+                num = num/2;
+                }
+                else{
+                    break;
+                }
+            }
+
+            else{
+                if(num%2==0){
+                    num = num/2;
+                }
+                else{
+                    num = num-3;
+                }
+            }
+    }
+    printf("%d\n",num);
+
+    }
+return 0;
+}
+
+
+
+
