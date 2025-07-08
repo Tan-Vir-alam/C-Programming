@@ -2954,3 +2954,15 @@ return 0;
 }
 
 
+/*Problem Name: The Wizard's magical Clue
+Problem: Once upon a time, in a faraway land, there was a great wizard who had a magical number. 
+The number was so powerful that it could grant any wish of the person who possessed it. The 
+wizard was very protective of this number and had hidden it somewhere in his enchanted castle.
+One day, a young and brave knight named Jack decided to embark on a quest to find the magical number.
+ After many adventures, Jack finally discovered a secret scroll that contained a clue to its location. 
+ But the clue was encrypted!
+The scroll had a list of several numbers, and for each number, Jack had to find out how many times a 
+specific digit appeared in that number. Only by solving all the clues correctly can Jack proceed to 
+the next stage of his quest.
+Your task is to help Jack solve all the scroll's clues.
+*/
