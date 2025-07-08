@@ -2909,3 +2909,23 @@ beautiful pairs exist in the hive. Your job is to help the Royal Bee Counter by 
 the number of beautiful pairs that can be formed.
 Can you assist the hive in making this celebration buzz-worthy?
 */
+#include<stdio.h>
+int main(){
+    int num,k;
+    scanf("%d %d",&num,&k);
+    int count=0;
+
+    for(int i=1; i<=num; i++){
+        for(int j=i+1; j<=num; j++){
+            int sum = i+j;
+            if(sum%k==0){
+                count++;
+            }
+        }
+    }
+    printf("%d\n",count);
+return 0;
+}
+
+
+
