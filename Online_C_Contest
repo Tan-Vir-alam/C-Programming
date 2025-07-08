@@ -2929,3 +2929,14 @@ return 0;
 
 
 
+/*Problem Name: Village Bell Rings
+Problem: In the peaceful village of Sonargram, life moves at the rhythm of a large bell hanging 
+in the center of the square. This bell is not just for decoration—it plays a vital role in daily 
+life. Every hour, the bell rings exactly as many times as the current hour. For instance, 
+at 1 o'clock it rings once, at 2 o'clock it rings twice, and so on. The villagers rely on these 
+bell rings to know the time, as very few own watches or phones.
+Every day, the bellman—an old but sharp man named Badrul—ensures the bell rings correctly from 
+sunrise to sunset. However, today he’s feeling under the weather and has asked for your help in 
+calculating how many times the bell will ring in a given number of hours.
+Can you help Badrul determine the total number of bell rings from hour 1 to hour N?
+*/
