@@ -2898,3 +2898,14 @@ int main(){
 }
 
 
+
+/*Problem name: Beautiful Paris
+In the enchanting land of Honeycomb City, bees are not only busy but also quite fond 
+of forming special friendships. Every bee has a unique ID number ranging from 1 to N.
+ According to ancient honeybee tradition, two bees become a “beautiful pair” if the 
+ sum of their ID numbers is perfectly divisible by a sacred number K.
+The Queen Bee has announced a grand celebration and wants to know how many such 
+beautiful pairs exist in the hive. Your job is to help the Royal Bee Counter by finding 
+the number of beautiful pairs that can be formed.
+Can you assist the hive in making this celebration buzz-worthy?
+*/
