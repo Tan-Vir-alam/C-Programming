@@ -2966,3 +2966,29 @@ specific digit appeared in that number. Only by solving all the clues correctly 
 the next stage of his quest.
 Your task is to help Jack solve all the scroll's clues.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    int i=1;
+    while(t--){
+        long int num,k;
+        scanf("%ld %ld",&num,&k);
+        int count=0;
+
+        while(num){
+            int temp = num%10;
+            num = num/10;
+
+            if(temp==k){
+                count++;
+            }
+        }
+
+        printf("Case %d: %d\n",i,count);
+        i++;
+    }
+return 0;
+}
+
+
