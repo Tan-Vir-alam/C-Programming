@@ -3092,3 +3092,26 @@ You need to:
 1) Print how many candies are in each row.
 2) Print the total number of candies.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int i=1;
+        int n;
+        scanf("%d",&n);
+        int j=n+1;
+        int total=0;
+        for(int i=1; i<=n; i++){
+                total=total+j;
+            printf("Row %d has %d candies\n",i,j);
+            j++;
+
+        }
+        printf("Total = %d\n",total);
+    }
+return 0;
+}
+
+
