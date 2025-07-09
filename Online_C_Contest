@@ -3083,3 +3083,12 @@ return 0;
 }
 
 
+/*Problem Name: Candy Counter
+Problem: A magician is testing his magic boxes. Each box contains a certain number of candies, and 
+he arranges them in rows.
+The magician gives you a number R — the number of rows.
+The magician places C = R + 1 candies in row 1, C + 1 in row 2, C + 2 in row 3, and so on…
+You need to:
+1) Print how many candies are in each row.
+2) Print the total number of candies.
+*/
