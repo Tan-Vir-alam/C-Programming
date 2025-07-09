@@ -3053,3 +3053,33 @@ a × b = reverse(a + b)
 Here, reverse(x) means the digits of x reversed. For example, reverse(123) = 321.
 Help Ayaan by writing a program that lists all such pairs.
 */
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    int count=0;
+    for(int i=1; i<n; i++){
+
+        for(int j=i+1; j<=n; j++){
+            int sum = i+j;
+            int rev = 0;
+            while(sum){
+                int t = sum%10;
+                sum=sum/10;
+                rev = (rev*10)+t;
+            }
+
+            int sum2 = i*j;
+            if(sum2 == rev){
+                printf("%d %d\n",i,j);
+                count++;
+            }
+        }
+    }
+    if(count==0){
+        printf("-1\n");
+    }
+return 0;
+}
+
+
