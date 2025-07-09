@@ -3159,3 +3159,16 @@ Your task is to calculate:
 1) How many flowers the bee visits in total
 2) How much time the bee takes to finish all the work
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int a,b;
+        scanf("%d %d",&a,&b);
+        printf("Total flowers = %d, Total time = %d seconds\n",a*b,(a*b)*2);
+    }
+return 0;
+}
+
