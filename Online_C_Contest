@@ -3151,3 +3151,11 @@ return 0;
 
 
 
+/*Problem Name: Buzzing Bees
+Problem: In a magical garden, there are N rows of flowers. Each row has exactly M flowers. 
+A bee visits every flower one by one and collects honey from it.
+Each flower takes exactly 2 seconds to collect honey from.
+Your task is to calculate:
+1) How many flowers the bee visits in total
+2) How much time the bee takes to finish all the work
+*/
