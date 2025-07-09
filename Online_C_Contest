@@ -3121,3 +3121,33 @@ Every day, they pick two numbers and find their Greatest Common Divisor (GCD) to
 "compatible" the numbers are.
 They are given two numbers. Their job is to print the GCD of those two numbers.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int a,b;
+        scanf("%d %d",&a,&b);
+        int gcd=0;
+        if(a<b){
+        for(int i=1; i<=a; i++){
+            if(a%i==0 && b%i==0){
+                gcd=i;
+            }
+        }
+        }
+        else{
+            for(int i=1; i<=b; i++){
+            if(a%i==0 && b%i==0){
+                gcd=i;
+            }
+        }
+        }
+        printf("GCD = %d\n",gcd);
+    }
+return 0;
+}
+
+
+
