@@ -3186,3 +3186,30 @@ Since neither Faysal nor Shezan are programmers, they need assistance in writing
 is to develop a program that determines three distinct integers, a, b, and c, that satisfy the condition 
 a^2+b^2=c^2 within a given range (x, y).
 */
+#include<stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int count =0;
+    for(int i=a; i<=b; i++){
+        int A = i*i;
+        for(int j=i; j<=b; j++){
+            int B = j*j;
+            for(int k=j; k<=b; k++){
+                int C = k*k;
+                if(A+B==C){
+                        count++;
+                    printf("%d %d %d\n",i,j,k);
+                }
+
+            }
+        }
+    }
+    if(count==0){
+        printf("FAILED\n");
+    }
+return 0;
+}
+
+
+
