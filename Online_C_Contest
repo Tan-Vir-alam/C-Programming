@@ -3226,3 +3226,27 @@ The second number is formed by concatenating the second elements of each pair: 5
 which gives the number 569.
 The sum of 123 and 569 is 692.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int k;
+        scanf("%d",&k);
+        int A=0,B=0;
+
+        while(k--){
+            int a,b;
+            scanf("%d %d",&a,&b);
+            A = (A*10)+a;
+            B = (B*10)+b;
+
+        }
+        int num = A+B;
+        printf("%d\n",num);
+    }
+return 0;
+}
+
+
