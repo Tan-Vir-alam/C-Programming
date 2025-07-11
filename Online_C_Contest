@@ -3172,3 +3172,17 @@ int main(){
 return 0;
 }
 
+
+
+/*Problem Name: Decode The code
+Problem: One evening, while walking home, Faysal and Shezan discovered a mysterious glowing box 
+in the middle of the road. Faysal picked it up and examined it, noting its ancient-looking lock 
+combined with a modern digital screen. The screen displayed a challenge:
+"To open the box, you must prove your wisdom. Enter three distinct numbers given range (x, y) 
+based on a formula."
+Shezan, skilled in mathematics, quickly discovered the formula required: (a, b, c) where a^2+b^2= c^2, 
+with no duplicates
+Since neither Faysal nor Shezan are programmers, they need assistance in writing a program. Your task 
+is to develop a program that determines three distinct integers, a, b, and c, that satisfy the condition 
+a^2+b^2=c^2 within a given range (x, y).
+*/
