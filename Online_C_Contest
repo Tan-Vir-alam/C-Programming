@@ -3258,3 +3258,25 @@ The time is valid (00:00 to 11:59)
 All 4 digits used in HH:MM are distinct
 Leading zeroes must be shown (e.g., 01:23 is valid and should be printed)
 */
+#include<stdio.h>
+int main(){
+    for(int i=0; i<=1; i++){
+        for(int j=0; j<=9; j++){
+                if(i==1 && j==2){
+                    break;
+                }
+
+            for(int m=0; m<=5; m++){
+
+                for(int m2=0; m2<=9; m2++){
+                        if(i!=j && j!=m && m!=m2 && i!=m && i!=m2 &&j!=m2){
+                   printf("%d%d:%d%d\n",i,j,m,m2);
+                        }
+                }
+            }
+        }
+    }
+return 0;
+}
+
+
