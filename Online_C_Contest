@@ -3250,3 +3250,11 @@ return 0;
 }
 
 
+
+/*Problem Name: Unique Time Format
+Problem: You're building a digital clock that only shows times where all digits are different.
+Your task is to use loops to print all valid times in 12-hour format (HH:MM) such that:
+The time is valid (00:00 to 11:59)
+All 4 digits used in HH:MM are distinct
+Leading zeroes must be shown (e.g., 01:23 is valid and should be printed)
+*/
