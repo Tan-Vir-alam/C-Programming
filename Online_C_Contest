@@ -3213,3 +3213,16 @@ return 0;
 
 
 
+/*Problem Name: The Big Addition
+Problem: You are given a set of test cases. For each test case, you will receive a number of 
+integer pairs. Your task is to form two large numbers by concatenating the first elements of 
+each pair to create the first number and the second elements to create the second number. 
+Finally, you should compute the sum of these two large numbers and output the result.
+
+Explanation In the example:
+The first number is formed by concatenating the first elements of each pair: 1, 2, and 3, 
+which gives the number 123.
+The second number is formed by concatenating the second elements of each pair: 5, 6, and 9, 
+which gives the number 569.
+The sum of 123 and 569 is 692.
+*/
