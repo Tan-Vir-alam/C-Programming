@@ -3325,4 +3325,31 @@ If ch is 'c', print a grid with r rows and c columns, where every element in a r
 the column number.
 Note: Both row and column numbers start from 1.
 */
+#include<stdio.h>
+int main(){
+    int row,col;
+    scanf("%d %d",&row,&col);
+    char a;
+    scanf(" %c",&a);
+    if(a=='c'){
+        for(int r=1;r<=row; r++){
+            for(int c=1; c<=col; c++){
+                printf("%d ",c);
+            }
+            printf("\n");
+        }
+    }
+    else{
+        for(int r=1;r<=row; r++){
+            for(int c=1; c<=col; c++){
+                printf("%d ",r);
+            }
+            printf("\n");
+        }
+    }
+return 0;
+}
+
+
+
 
