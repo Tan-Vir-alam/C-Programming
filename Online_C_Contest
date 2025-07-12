@@ -3444,3 +3444,12 @@ return 0;
 
 
 
+/*Problem Name: Orange Overload
+Problem: Luffy has N oranges with him. Each orange has either 10,11, or 12 slices.
+Luffy wanted to eat exactly K slices of orange. However, the oranges were too tasty, 
+and Luffy ended up eating all N of them!
+Luffy wasn't paying attention, so he didn't count the number of slices he ate, and 
+he also doesn't know how many slices each orange had - the only thing he knows is 
+that each orange has either 10,11, or 12 slices.
+Is it possible that Luffy ate exactly K slices from N oranges?
+*/
