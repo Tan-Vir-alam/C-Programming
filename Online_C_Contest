@@ -3381,3 +3381,30 @@ There are n stones on the ground, each with a weight wi (1 <= i <= n). You want 
 stones such that the absolute difference between their weights is as large as possible.
 Formally, find the maximum value of |wi - wj|, where 1 <= i, j <= n and i != j.
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int tc;
+        scanf("%d",&tc);
+
+        int small = 10000000000;
+        int big = 0;
+        while(tc--){
+                int n;
+        scanf("%d",&n);
+            if(n>big){
+                big=n;
+            }
+            if(n<small){
+                small=n;
+            }
+        }
+        printf("%d\n",big-small);
+    }
+return 0;
+}
+
+
+
