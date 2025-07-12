@@ -3352,4 +3352,8 @@ return 0;
 
 
 
+/*Problem Name: Triangle of Numbers
+Problem: Given an integer N, output should be a right-angled triangle of numbers, where the 
+i-th line contains numbers from 1 to i.
+*/
 
