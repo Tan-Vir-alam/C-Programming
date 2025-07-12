@@ -3314,3 +3314,15 @@ return 0;
 
 
 
+/*Problem Name: Pattern by choice
+Problem: You are given a simple grid printing task based on nested loops.
+First, you will be given two integers r and c — representing the number of rows and columns.
+Then you will be given a single character ch which will be either 'r' or 'c'.
+Your task is:
+If ch is 'r', print a grid with r rows and c columns, where every element in a row contains 
+the row number.
+If ch is 'c', print a grid with r rows and c columns, where every element in a row contains 
+the column number.
+Note: Both row and column numbers start from 1.
+*/
+
