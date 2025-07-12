@@ -3453,3 +3453,30 @@ he also doesn't know how many slices each orange had - the only thing he knows i
 that each orange has either 10,11, or 12 slices.
 Is it possible that Luffy ate exactly K slices from N oranges?
 */
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int n;
+        scanf("%d",&n);
+        int total_slice;
+        scanf("%d",&total_slice);
+
+        int higest_slice = 12*n;
+        int lowest_slice = 10*n;
+
+
+        if(total_slice>=lowest_slice && total_slice<=higest_slice){
+            printf("YES\n");
+        }
+        else{
+            printf("NO\n");
+
+        }
+    }
+return 0;
+}
+
+
