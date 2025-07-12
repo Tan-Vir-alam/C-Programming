@@ -3289,3 +3289,28 @@ x and y separated by a single space.
 The input ends with two 0 (when both x and y are zero). Your program should not process for 
 these terminal symbols.
 */
+#include<stdio.h>
+int main(){
+    while(1){
+        int a,b;
+        scanf("%d %d",&a,&b);
+
+
+
+        if(a==0 && b==0){
+            break;
+        }
+        else{
+            if(a>b){
+                printf("%d %d\n",b,a);
+            }
+            else{
+                printf("%d %d\n",a,b);
+            }
+        }
+    }
+return 0;
+}
+
+
+
