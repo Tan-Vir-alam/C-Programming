@@ -3356,4 +3356,17 @@ return 0;
 Problem: Given an integer N, output should be a right-angled triangle of numbers, where the 
 i-th line contains numbers from 1 to i.
 */
+#include<stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+
+    for(int row=1; row<=n; row++){
+        for(int col=1; col<=row; col++){
+            printf("%d ",col);
+        }
+        printf("\n");
+    }
+return 0;
+}
 
