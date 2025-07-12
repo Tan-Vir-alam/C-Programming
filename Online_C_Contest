@@ -3408,3 +3408,12 @@ return 0;
 
 
 
+/*Problem Name: Perfect stones collection
+Problem: Claudius is a collector of perfect stones, and he has a special stone that he adores. 
+His friend Ophelia is very zealous of Claudius about that special stone. Ophelia have the stone 
+for herself.
+So, Ophelia went to a stone field to gather stones with almost identical weight to the special 
+stone. She gathered n stones, and you are given their weights. Your task is to help Ophelia choose 
+the stone with the weight closest to the weight of the special stone and determine the difference 
+in weight between the chosen stone and the special stone.
+*/
