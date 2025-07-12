@@ -3370,3 +3370,14 @@ int main(){
 return 0;
 }
 
+
+
+/*Problem Name: The search for precious stones
+Problem: As a little backstory, you are a treasure hunter searching for precious stones in a lost 
+temple. The stones you have found are all of different weights and sizes, but you can only take 
+two with you. Your goal is to choose the stones with the maximum weight difference, hoping that 
+they will fetch a high price in the market.
+There are n stones on the ground, each with a weight wi (1 <= i <= n). You want to choose two 
+stones such that the absolute difference between their weights is as large as possible.
+Formally, find the maximum value of |wi - wj|, where 1 <= i, j <= n and i != j.
+*/
