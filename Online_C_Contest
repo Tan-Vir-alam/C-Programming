@@ -3417,3 +3417,30 @@ stone. She gathered n stones, and you are given their weights. Your task is to h
 the stone with the weight closest to the weight of the special stone and determine the difference 
 in weight between the chosen stone and the special stone.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+
+    while(t--){
+        int ts,sp;
+        scanf("%d %d",&ts,&sp);
+        int ans=10000;
+        while(ts--){
+            int n;
+            scanf("%d",&n);
+
+            int x = abs(sp-n);
+            if(ans>x){
+                ans=x;
+            }
+        }
+        printf("%d\n",ans);
+
+    }
+return 0;
+}
+
+
+
