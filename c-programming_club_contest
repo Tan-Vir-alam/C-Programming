@@ -875,3 +875,15 @@ many different ways it can be expressed as the sum of two distinct positive inte
 Each pair (a, b) and (b, a) should be counted as **one unique way**.
 Help Little Ramanujan in finding the total number of such distinct representations for a given number n.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int a;
+    scanf("%d",&a);
+   double count = (a*(1.0)/2);
+   count = ceill(count);
+   printf("%.0lf\n",count-1);
+return 0;
+}
+
+
