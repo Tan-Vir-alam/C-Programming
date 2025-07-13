@@ -921,3 +921,11 @@ int main(){
 
 
 
+/*Problem Name:  Ranking Dilemma
+Problem: Suppose, a contest is running. There are still 2 hours remaining in this contest. As a contestant, 
+you are only informed that there are P problems in the problem set, you have already solved S problems, and 
+your current rank is R. You have to determine whether there is a chance by any means for you to become champion 
+after the end of the contest.
+Input: 
+The input will contain three integers P, S and R.
+*/
