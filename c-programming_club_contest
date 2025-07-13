@@ -896,3 +896,28 @@ His task was always the same: take a number and work through it one digit at a t
 the first digit by 1, the second by 2, the third by 3, and so on. Each result was part of the spell. When he was done, he joined all the 
 results together to create the final enchanted number — a magical form shaped by growing power and steady focus.
 */
+#include<stdio.h>
+#include<math.h>
+int main(){
+    long long int num,count=0,div=1,sum=0;
+    scanf("%lld",&num);
+    long long int num2=num;
+    while(num){
+        long long int temp=num%10;
+        count++;
+        num=num/10;
+    }
+    for(int i=1; i<count; i++){
+        div = div*10;
+    }
+    for(int i=1; i<=count; i++){
+        int temp = num2/div;
+        num2=num2%div;
+        int r=temp*i;
+        printf("%d",r);
+        div=div/10;
+    }
+}
+
+
+
