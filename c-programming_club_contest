@@ -865,3 +865,13 @@ int main(){
 return 0;
 }
 
+
+
+/*Problem name: Little Ramanujan
+Problem :Srinivasa Ramanujan, one of the greatest mathematicians in history, was fascinated by number theory, especially integer 
+partitions — the number of ways a number can be expressed as the sum of positive integers.
+Inspired by his father, Little Ramanujan is exploring numbers in a similar way. He wants to know for a given number n, in how 
+many different ways it can be expressed as the sum of two distinct positive integers ( a + b = n where a != b and a, b > 0).
+Each pair (a, b) and (b, a) should be counted as **one unique way**.
+Help Little Ramanujan in finding the total number of such distinct representations for a given number n.
+*/
