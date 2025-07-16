@@ -995,3 +995,8 @@ int main(){
 
 
 
+/*Problem Name: Armstrong Mystery
+Problem: An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number 
+of digits in the number.
+You are given a positive integer N. Determine whether N is an Armstrong number.
+*/ 
