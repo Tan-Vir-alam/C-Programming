@@ -944,3 +944,10 @@ return 0;
 
 
 
+/*Problem Name: The Echoed Number
+Problem: A mysterious device has a special behavior—it reverses any number you give it and then reads it aloud digit by digit.
+Given a positive integer N, your task is to simulate this device. First, reverse the digits of N, then print each digit of the 
+reversed number in words, from left to right.
+But beware — the machine does not ignore any digit in the reversed number. If the reversed number has leading zeros, they must 
+be spoken out too.
+*/
