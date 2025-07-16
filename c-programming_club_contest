@@ -1028,3 +1028,17 @@ return 0;
 
 
 
+/*Problem Name: 
+Problem: Welcome to CodeCricket, where every over is recorded as a 6-digit number.
+Each digit represents the outcome of a ball:
+1) 0 to 6 → Runs scored
+2) 9 → Wicket
+
+There are no extras in this over — no no-balls, no wides. Just a clean 6-ball over.
+The coach is on the lookout for something special — a Hat-trick! That means three wickets in a row, 
+anywhere in the over (not necessarily at the start or end).
+Your job is to:
+Analyze the over.
+Print "Hat-trick!" if the over contains three consecutive 9s.
+Otherwise, print "Better luck next time."
+*/
