@@ -951,3 +951,47 @@ reversed number in words, from left to right.
 But beware — the machine does not ignore any digit in the reversed number. If the reversed number has leading zeros, they must 
 be spoken out too.
 */
+#include<stdio.h>
+int main(){
+    int num;
+    scanf("%d",&num);
+    while(num){
+        int temp = num%10;
+        num = num/10;
+        if(temp==1){
+            printf("One ");
+        }
+        else if(temp==2){
+            printf("Two ");
+        }
+        else if(temp==3){
+            printf("Three ");
+        }
+        else if(temp==4){
+            printf("Four ");
+        }
+        else if(temp==5){
+            printf("Five ");
+        }
+        else if(temp==6){
+            printf("Six ");
+        }
+        else if( temp==7){
+            printf("Seven ");
+        }
+        else if(temp==8){
+            printf("Eight ");
+        }
+        else if(temp==9){
+            printf("Nine ");
+        }
+        else{
+            printf("Zero ");
+
+        }
+    }
+}
+
+
+
+
